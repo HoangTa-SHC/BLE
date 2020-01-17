@@ -1,0 +1,1 @@
+To lower the size of the repo, I removed the folder "ble_peripheral".

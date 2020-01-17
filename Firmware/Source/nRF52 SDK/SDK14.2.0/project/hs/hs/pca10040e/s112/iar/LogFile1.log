@@ -1,0 +1,1709 @@
+
+
+ << ファイルへのロギングを再開します >> 
+
+Mon Jul 29, 2019 17:43:31: JLINKコマンド:ProjectFile = C:\kaihatsu\toYou\hs\firmware\nRF52 SDK\SDK14.2.0\project\hs\hs\pca10040e\s112\iar\settings\ble_app_template_pca10040e_s112_nrf52810_xxaa.jlink、リターン値 = 0
+
+Mon Jul 29, 2019 17:43:31: Device "NRF52810_XXAA" selected.
+Mon Jul 29, 2019 17:43:31: DLLバージョン:V6.44a、Mar  8 2019 17:31:48がコンパイルされました
+
+Mon Jul 29, 2019 17:43:31: ファームウェア:J-Link V10 compiled Mar  7 2019 15:19:19
+
+Mon Jul 29, 2019 17:43:31: 現在のターゲットインタフェースとしてSWDを選択しています。
+
+Mon Jul 29, 2019 17:43:31: JTAG速度の初期値:は1000 kHzです
+Mon Jul 29, 2019 17:43:31: Found SW-DP with ID 0x2BA01477
+Mon Jul 29, 2019 17:43:31: Found SW-DP with ID 0x2BA01477
+Mon Jul 29, 2019 17:43:31: Scanning AP map to find all available APs
+Mon Jul 29, 2019 17:43:31: AP[2]: Stopped AP scan as end of AP map has been reached
+Mon Jul 29, 2019 17:43:31: AP[0]: AHB-AP (IDR: 0x24770011)
+Mon Jul 29, 2019 17:43:31: AP[1]: JTAG-AP (IDR: 0x02880000)
+Mon Jul 29, 2019 17:43:31: Iterating through AP map to find AHB-AP to use
+Mon Jul 29, 2019 17:43:31: AP[0]: Core found
+Mon Jul 29, 2019 17:43:31: AP[0]: AHB-AP ROM base: 0xE00FF000
+Mon Jul 29, 2019 17:43:31: CPUID register: 0x410FC241. Implementer code: 0x41 (ARM)
+Mon Jul 29, 2019 17:43:31: Found Cortex-M4 r0p1, Little endian.
+Mon Jul 29, 2019 17:43:31: FPUnit: 6 code (BP) slots and 2 literal slots
+Mon Jul 29, 2019 17:43:31: CoreSight components:
+Mon Jul 29, 2019 17:43:31: ROMTbl[0] @ E00FF000
+Mon Jul 29, 2019 17:43:31: ROMTbl[0][0]: E000E000, CID: B105E00D, PID: 000BB000 SCS
+Mon Jul 29, 2019 17:43:31: ROMTbl[0][1]: E0001000, CID: B105E00D, PID: 003BB002 DWT
+Mon Jul 29, 2019 17:43:31: ROMTbl[0][2]: E0002000, CID: B105E00D, PID: 002BB003 FPB
+Mon Jul 29, 2019 17:43:31: Reset: Halt core after reset via DEMCR.VC_CORERESET.
+Mon Jul 29, 2019 17:43:31: Reset: Reset device via AIRCR.SYSRESETREQ.
+Mon Jul 29, 2019 17:43:31: 方法0によるハードウェアリセットが実行されました
+Mon Jul 29, 2019 17:43:31: 初期リセットが実行されました
+Mon Jul 29, 2019 17:43:32: ダウンロードについて0バイトが抑制されました
+Mon Jul 29, 2019 17:43:32: ロードされたデバッギー: C:\kaihatsu\toYou\hs\firmware\nRF52 SDK\SDK14.2.0\project\hs\hs\pca10040e\s112\iar\_build\ble_app_template_pca10040e_s112.out
+Mon Jul 29, 2019 17:43:32: Reset: Halt core after reset via DEMCR.VC_CORERESET.
+Mon Jul 29, 2019 17:43:32: Reset: Reset device via AIRCR.SYSRESETREQ.
+Mon Jul 29, 2019 17:43:32: 方法0によるハードウェアリセットが実行されました
+Mon Jul 29, 2019 17:43:32: ターゲットリセット
+Mon Jul 29, 2019 17:43:59: ヒットしたブレークポイント: コード @ main.c:214.3、タイプ:デフォルト(自動) 
+Mon Jul 29, 2019 17:44:34: ヒットしたブレークポイント: コード @ main.c:214.3、タイプ:デフォルト(自動) 
+Mon Jul 29, 2019 18:16:59: ヒットしたブレークポイント: コード @ app_error_weak.c:63.5、タイプ:デフォルト(自動) 
+Mon Jul 29, 2019 18:16:59: HardFault exception.
+The processor has escalated a configurable-priority exception to HardFault.
+
+Exception occured at PC = 0xffffffff, LR = 0x0
+
+See the call stack for more information.
+
+Mon Jul 29, 2019 18:17:11: HardFault exception.
+The processor has escalated a configurable-priority exception to HardFault.
+
+Exception occured at PC = 0xffffffff, LR = 0x0
+
+See the call stack for more information.
+
+Mon Jul 29, 2019 18:17:13: HardFault exception.
+The processor has escalated a configurable-priority exception to HardFault.
+
+Exception occured at PC = 0xffffffff, LR = 0x0
+
+See the call stack for more information.
+
+Mon Jul 29, 2019 18:20:23: ヒットしたブレークポイント: コード @ app_error_weak.c:97.5、タイプ:デフォルト(自動) 
+Mon Jul 29, 2019 18:20:23: HardFault exception.
+The processor has escalated a configurable-priority exception to HardFault.
+
+Exception occured at PC = 0xffffffff, LR = 0x0
+
+See the call stack for more information.
+
+Mon Jul 29, 2019 18:20:25: HardFault exception.
+The processor has escalated a configurable-priority exception to HardFault.
+
+Exception occured at PC = 0xffffffff, LR = 0x0
+
+See the call stack for more information.
+
+Mon Jul 29, 2019 18:20:26: ヒットしたブレークポイント: コード @ app_error_weak.c:104.5、タイプ:デフォルト(自動) 
+Mon Jul 29, 2019 18:20:26: HardFault exception.
+The processor has escalated a configurable-priority exception to HardFault.
+
+Exception occured at PC = 0xffffffff, LR = 0x0
+
+See the call stack for more information.
+
+Mon Jul 29, 2019 18:20:27: HardFault exception.
+The processor has escalated a configurable-priority exception to HardFault.
+
+Exception occured at PC = 0xffffffff, LR = 0x0
+
+See the call stack for more information.
+
+Mon Jul 29, 2019 18:20:30: HardFault exception.
+The processor has escalated a configurable-priority exception to HardFault.
+
+Exception occured at PC = 0xffffffff, LR = 0x0
+
+See the call stack for more information.
+
+Mon Jul 29, 2019 18:20:31: HardFault exception.
+The processor has escalated a configurable-priority exception to HardFault.
+
+Exception occured at PC = 0xffffffff, LR = 0x0
+
+See the call stack for more information.
+
+Mon Jul 29, 2019 18:21:23: HardFault exception.
+The processor has escalated a configurable-priority exception to HardFault.
+
+Exception occured at PC = 0xffffffff, LR = 0x0
+
+See the call stack for more information.
+
+Mon Jul 29, 2019 18:21:24: HardFault exception.
+The processor has escalated a configurable-priority exception to HardFault.
+
+Exception occured at PC = 0xffffffff, LR = 0x0
+
+See the call stack for more information.
+
+Mon Jul 29, 2019 18:21:25: HardFault exception.
+The processor has escalated a configurable-priority exception to HardFault.
+
+Exception occured at PC = 0xffffffff, LR = 0x0
+
+See the call stack for more information.
+
+Mon Jul 29, 2019 18:21:26: HardFault exception.
+The processor has escalated a configurable-priority exception to HardFault.
+
+Exception occured at PC = 0xffffffff, LR = 0x0
+
+See the call stack for more information.
+
+Mon Jul 29, 2019 18:22:56: HardFault exception.
+The processor has escalated a configurable-priority exception to HardFault.
+
+Exception occured at PC = 0xffffffff, LR = 0x0
+
+See the call stack for more information.
+
+Mon Jul 29, 2019 18:22:58: HardFault exception.
+The processor has escalated a configurable-priority exception to HardFault.
+
+Exception occured at PC = 0xffffffff, LR = 0x0
+
+See the call stack for more information.
+
+Mon Jul 29, 2019 18:22:59: HardFault exception.
+The processor has escalated a configurable-priority exception to HardFault.
+
+Exception occured at PC = 0xffffffff, LR = 0x0
+
+See the call stack for more information.
+
+Mon Jul 29, 2019 18:23:00: HardFault exception.
+The processor has escalated a configurable-priority exception to HardFault.
+
+Exception occured at PC = 0xffffffff, LR = 0x0
+
+See the call stack for more information.
+
+Mon Jul 29, 2019 18:23:02: HardFault exception.
+The processor has escalated a configurable-priority exception to HardFault.
+
+Exception occured at PC = 0xffffffff, LR = 0x0
+
+See the call stack for more information.
+
+Mon Jul 29, 2019 18:23:03: HardFault exception.
+The processor has escalated a configurable-priority exception to HardFault.
+
+Exception occured at PC = 0xffffffff, LR = 0x0
+
+See the call stack for more information.
+
+Mon Jul 29, 2019 18:23:04: HardFault exception.
+The processor has escalated a configurable-priority exception to HardFault.
+
+Exception occured at PC = 0xffffffff, LR = 0x0
+
+See the call stack for more information.
+
+
+
+ << ファイルへのロギングを再開します >> 
+
+Mon Jul 29, 2019 18:47:35: JLINKコマンド:ProjectFile = C:\kaihatsu\toYou\hs\firmware\nRF52 SDK\SDK14.2.0\project\hs\hs\pca10040e\s112\iar\settings\ble_app_template_pca10040e_s112_nrf52810_xxaa.jlink、リターン値 = 0
+
+Mon Jul 29, 2019 18:47:35: Device "NRF52810_XXAA" selected.
+Mon Jul 29, 2019 18:47:35: DLLバージョン:V6.44a、Mar  8 2019 17:31:48がコンパイルされました
+
+Mon Jul 29, 2019 18:47:35: ファームウェア:J-Link V10 compiled Mar  7 2019 15:19:19
+
+Mon Jul 29, 2019 18:47:35: 現在のターゲットインタフェースとしてSWDを選択しています。
+
+Mon Jul 29, 2019 18:47:35: JTAG速度の初期値:は1000 kHzです
+Mon Jul 29, 2019 18:47:35: Found SW-DP with ID 0x2BA01477
+Mon Jul 29, 2019 18:47:35: Found SW-DP with ID 0x2BA01477
+Mon Jul 29, 2019 18:47:35: Scanning AP map to find all available APs
+Mon Jul 29, 2019 18:47:35: AP[2]: Stopped AP scan as end of AP map has been reached
+Mon Jul 29, 2019 18:47:35: AP[0]: AHB-AP (IDR: 0x24770011)
+Mon Jul 29, 2019 18:47:35: AP[1]: JTAG-AP (IDR: 0x02880000)
+Mon Jul 29, 2019 18:47:35: Iterating through AP map to find AHB-AP to use
+Mon Jul 29, 2019 18:47:35: AP[0]: Core found
+Mon Jul 29, 2019 18:47:35: AP[0]: AHB-AP ROM base: 0xE00FF000
+Mon Jul 29, 2019 18:47:35: CPUID register: 0x410FC241. Implementer code: 0x41 (ARM)
+Mon Jul 29, 2019 18:47:35: Found Cortex-M4 r0p1, Little endian.
+Mon Jul 29, 2019 18:47:35: FPUnit: 6 code (BP) slots and 2 literal slots
+Mon Jul 29, 2019 18:47:35: CoreSight components:
+Mon Jul 29, 2019 18:47:35: ROMTbl[0] @ E00FF000
+Mon Jul 29, 2019 18:47:35: ROMTbl[0][0]: E000E000, CID: B105E00D, PID: 000BB000 SCS
+Mon Jul 29, 2019 18:47:35: ROMTbl[0][1]: E0001000, CID: B105E00D, PID: 003BB002 DWT
+Mon Jul 29, 2019 18:47:35: ROMTbl[0][2]: E0002000, CID: B105E00D, PID: 002BB003 FPB
+Mon Jul 29, 2019 18:47:35: Reset: Halt core after reset via DEMCR.VC_CORERESET.
+Mon Jul 29, 2019 18:47:35: Reset: Reset device via AIRCR.SYSRESETREQ.
+Mon Jul 29, 2019 18:47:35: 方法0によるハードウェアリセットが実行されました
+Mon Jul 29, 2019 18:47:35: 初期リセットが実行されました
+Mon Jul 29, 2019 18:47:36: J-Link: Flash download: Bank 0 @ 0x00000000: 1 range affected (4096 bytes)
+Mon Jul 29, 2019 18:47:36: J-Link: Flash download: Total time needed: 0.208s (Prepare: 0.030s, Compare: 0.037s, Erase: 0.084s, Program: 0.050s, Verify: 0.000s, Restore: 0.005s)
+Mon Jul 29, 2019 18:47:36: 44221 バイトがダウンロード済み(43.18 KB/秒)
+Mon Jul 29, 2019 18:47:36: ロードされたデバッギー: C:\kaihatsu\toYou\hs\firmware\nRF52 SDK\SDK14.2.0\project\hs\hs\pca10040e\s112\iar\_build\ble_app_template_pca10040e_s112.out
+Mon Jul 29, 2019 18:47:36: Reset: Halt core after reset via DEMCR.VC_CORERESET.
+Mon Jul 29, 2019 18:47:36: Reset: Reset device via AIRCR.SYSRESETREQ.
+Mon Jul 29, 2019 18:47:36: 方法0によるハードウェアリセットが実行されました
+Mon Jul 29, 2019 18:47:36: ターゲットリセット
+Mon Jul 29, 2019 18:47:56: ヒットしたブレークポイント: コード @ main.c:215.19、タイプ:デフォルト(自動) 
+
+
+ << ファイルへのロギングを再開します >> 
+
+Mon Jul 29, 2019 19:04:35: JLINKコマンド:ProjectFile = C:\kaihatsu\toYou\hs\firmware\nRF52 SDK\SDK14.2.0\project\hs\hs\pca10040e\s112\iar\settings\ble_app_template_pca10040e_s112_nrf52810_xxaa.jlink、リターン値 = 0
+
+Mon Jul 29, 2019 19:04:35: Device "NRF52810_XXAA" selected.
+Mon Jul 29, 2019 19:04:35: DLLバージョン:V6.44a、Mar  8 2019 17:31:48がコンパイルされました
+
+Mon Jul 29, 2019 19:04:35: ファームウェア:J-Link V10 compiled Mar  7 2019 15:19:19
+
+Mon Jul 29, 2019 19:04:35: 現在のターゲットインタフェースとしてSWDを選択しています。
+
+Mon Jul 29, 2019 19:04:35: JTAG速度の初期値:は1000 kHzです
+Mon Jul 29, 2019 19:04:35: Found SW-DP with ID 0x2BA01477
+Mon Jul 29, 2019 19:04:35: Found SW-DP with ID 0x2BA01477
+Mon Jul 29, 2019 19:04:35: Scanning AP map to find all available APs
+Mon Jul 29, 2019 19:04:35: AP[2]: Stopped AP scan as end of AP map has been reached
+Mon Jul 29, 2019 19:04:35: AP[0]: AHB-AP (IDR: 0x24770011)
+Mon Jul 29, 2019 19:04:35: AP[1]: JTAG-AP (IDR: 0x02880000)
+Mon Jul 29, 2019 19:04:35: Iterating through AP map to find AHB-AP to use
+Mon Jul 29, 2019 19:04:35: AP[0]: Core found
+Mon Jul 29, 2019 19:04:35: AP[0]: AHB-AP ROM base: 0xE00FF000
+Mon Jul 29, 2019 19:04:35: CPUID register: 0x410FC241. Implementer code: 0x41 (ARM)
+Mon Jul 29, 2019 19:04:35: Found Cortex-M4 r0p1, Little endian.
+Mon Jul 29, 2019 19:04:35: FPUnit: 6 code (BP) slots and 2 literal slots
+Mon Jul 29, 2019 19:04:35: CoreSight components:
+Mon Jul 29, 2019 19:04:35: ROMTbl[0] @ E00FF000
+Mon Jul 29, 2019 19:04:35: ROMTbl[0][0]: E000E000, CID: B105E00D, PID: 000BB000 SCS
+Mon Jul 29, 2019 19:04:35: ROMTbl[0][1]: E0001000, CID: B105E00D, PID: 003BB002 DWT
+Mon Jul 29, 2019 19:04:35: ROMTbl[0][2]: E0002000, CID: B105E00D, PID: 002BB003 FPB
+Mon Jul 29, 2019 19:04:35: Reset: Halt core after reset via DEMCR.VC_CORERESET.
+Mon Jul 29, 2019 19:04:35: Reset: Reset device via AIRCR.SYSRESETREQ.
+Mon Jul 29, 2019 19:04:35: 方法0によるハードウェアリセットが実行されました
+Mon Jul 29, 2019 19:04:35: 初期リセットが実行されました
+Mon Jul 29, 2019 19:04:38: J-Link: Flash download: Bank 0 @ 0x00000000: 1 range affected (45056 bytes)
+Mon Jul 29, 2019 19:04:38: J-Link: Flash download: Total time needed: 1.430s (Prepare: 0.029s, Compare: 0.006s, Erase: 0.912s, Program: 0.476s, Verify: 0.001s, Restore: 0.004s)
+Mon Jul 29, 2019 19:04:38: 44229 バイトがダウンロード済み(20.63 KB/秒)
+Mon Jul 29, 2019 19:04:38: ロードされたデバッギー: C:\kaihatsu\toYou\hs\firmware\nRF52 SDK\SDK14.2.0\project\hs\hs\pca10040e\s112\iar\_build\ble_app_template_pca10040e_s112.out
+Mon Jul 29, 2019 19:04:38: Reset: Halt core after reset via DEMCR.VC_CORERESET.
+Mon Jul 29, 2019 19:04:38: Reset: Reset device via AIRCR.SYSRESETREQ.
+Mon Jul 29, 2019 19:04:38: 方法0によるハードウェアリセットが実行されました
+Mon Jul 29, 2019 19:04:38: ターゲットリセット
+
+
+ << ファイルへのロギングを再開します >> 
+
+Mon Jul 29, 2019 19:33:40: JLINKコマンド:ProjectFile = C:\kaihatsu\toYou\hs\firmware\nRF52 SDK\SDK14.2.0\project\hs\hs\pca10040e\s112\iar\settings\ble_app_template_pca10040e_s112_nrf52810_xxaa.jlink、リターン値 = 0
+
+Mon Jul 29, 2019 19:33:40: Device "NRF52810_XXAA" selected.
+Mon Jul 29, 2019 19:33:40: DLLバージョン:V6.44a、Mar  8 2019 17:31:48がコンパイルされました
+
+Mon Jul 29, 2019 19:33:40: ファームウェア:J-Link V10 compiled Mar  7 2019 15:19:19
+
+Mon Jul 29, 2019 19:33:40: 現在のターゲットインタフェースとしてSWDを選択しています。
+
+Mon Jul 29, 2019 19:33:40: JTAG速度の初期値:は1000 kHzです
+Mon Jul 29, 2019 19:33:40: Found SW-DP with ID 0x2BA01477
+Mon Jul 29, 2019 19:33:40: Found SW-DP with ID 0x2BA01477
+Mon Jul 29, 2019 19:33:40: Scanning AP map to find all available APs
+Mon Jul 29, 2019 19:33:40: AP[2]: Stopped AP scan as end of AP map has been reached
+Mon Jul 29, 2019 19:33:40: AP[0]: AHB-AP (IDR: 0x24770011)
+Mon Jul 29, 2019 19:33:40: AP[1]: JTAG-AP (IDR: 0x02880000)
+Mon Jul 29, 2019 19:33:40: Iterating through AP map to find AHB-AP to use
+Mon Jul 29, 2019 19:33:40: AP[0]: Core found
+Mon Jul 29, 2019 19:33:40: AP[0]: AHB-AP ROM base: 0xE00FF000
+Mon Jul 29, 2019 19:33:40: CPUID register: 0x410FC241. Implementer code: 0x41 (ARM)
+Mon Jul 29, 2019 19:33:40: Found Cortex-M4 r0p1, Little endian.
+Mon Jul 29, 2019 19:33:40: FPUnit: 6 code (BP) slots and 2 literal slots
+Mon Jul 29, 2019 19:33:40: CoreSight components:
+Mon Jul 29, 2019 19:33:40: ROMTbl[0] @ E00FF000
+Mon Jul 29, 2019 19:33:40: ROMTbl[0][0]: E000E000, CID: B105E00D, PID: 000BB000 SCS
+Mon Jul 29, 2019 19:33:40: ROMTbl[0][1]: E0001000, CID: B105E00D, PID: 003BB002 DWT
+Mon Jul 29, 2019 19:33:40: ROMTbl[0][2]: E0002000, CID: B105E00D, PID: 002BB003 FPB
+Mon Jul 29, 2019 19:33:40: Reset: Halt core after reset via DEMCR.VC_CORERESET.
+Mon Jul 29, 2019 19:33:40: Reset: Reset device via AIRCR.SYSRESETREQ.
+Mon Jul 29, 2019 19:33:40: 方法0によるハードウェアリセットが実行されました
+Mon Jul 29, 2019 19:33:40: 初期リセットが実行されました
+Mon Jul 29, 2019 19:33:43: J-Link: Flash download: Bank 0 @ 0x00000000: 1 range affected (45056 bytes)
+Mon Jul 29, 2019 19:33:43: J-Link: Flash download: Total time needed: 1.432s (Prepare: 0.028s, Compare: 0.006s, Erase: 0.913s, Program: 0.476s, Verify: 0.001s, Restore: 0.004s)
+Mon Jul 29, 2019 19:33:43: 44137 バイトがダウンロード済み(20.74 KB/秒)
+Mon Jul 29, 2019 19:33:43: ロードされたデバッギー: C:\kaihatsu\toYou\hs\firmware\nRF52 SDK\SDK14.2.0\project\hs\hs\pca10040e\s112\iar\_build\ble_app_template_pca10040e_s112.out
+Mon Jul 29, 2019 19:33:43: Reset: Halt core after reset via DEMCR.VC_CORERESET.
+Mon Jul 29, 2019 19:33:43: Reset: Reset device via AIRCR.SYSRESETREQ.
+Mon Jul 29, 2019 19:33:43: 方法0によるハードウェアリセットが実行されました
+Mon Jul 29, 2019 19:33:43: ターゲットリセット
+Mon Jul 29, 2019 21:15:05: ヒットしたブレークポイント: コード @ main.c:595.2、タイプ:デフォルト(自動) 
+
+
+ << ファイルへのロギングを再開します >> 
+
+Mon Jul 29, 2019 21:33:38: JLINKコマンド:ProjectFile = C:\kaihatsu\toYou\hs\firmware\nRF52 SDK\SDK14.2.0\project\hs\hs\pca10040e\s112\iar\settings\ble_app_template_pca10040e_s112_nrf52810_xxaa.jlink、リターン値 = 0
+
+Mon Jul 29, 2019 21:33:38: Device "NRF52810_XXAA" selected.
+Mon Jul 29, 2019 21:33:38: DLLバージョン:V6.44a、Mar  8 2019 17:31:48がコンパイルされました
+
+Mon Jul 29, 2019 21:33:38: ファームウェア:J-Link V10 compiled Mar  7 2019 15:19:19
+
+Mon Jul 29, 2019 21:33:38: 現在のターゲットインタフェースとしてSWDを選択しています。
+
+Mon Jul 29, 2019 21:33:38: JTAG速度の初期値:は1000 kHzです
+Mon Jul 29, 2019 21:33:38: Found SW-DP with ID 0x2BA01477
+Mon Jul 29, 2019 21:33:38: Found SW-DP with ID 0x2BA01477
+Mon Jul 29, 2019 21:33:38: Scanning AP map to find all available APs
+Mon Jul 29, 2019 21:33:38: AP[2]: Stopped AP scan as end of AP map has been reached
+Mon Jul 29, 2019 21:33:38: AP[0]: AHB-AP (IDR: 0x24770011)
+Mon Jul 29, 2019 21:33:38: AP[1]: JTAG-AP (IDR: 0x02880000)
+Mon Jul 29, 2019 21:33:38: Iterating through AP map to find AHB-AP to use
+Mon Jul 29, 2019 21:33:38: AP[0]: Core found
+Mon Jul 29, 2019 21:33:38: AP[0]: AHB-AP ROM base: 0xE00FF000
+Mon Jul 29, 2019 21:33:38: CPUID register: 0x410FC241. Implementer code: 0x41 (ARM)
+Mon Jul 29, 2019 21:33:38: Found Cortex-M4 r0p1, Little endian.
+Mon Jul 29, 2019 21:33:38: FPUnit: 6 code (BP) slots and 2 literal slots
+Mon Jul 29, 2019 21:33:38: CoreSight components:
+Mon Jul 29, 2019 21:33:38: ROMTbl[0] @ E00FF000
+Mon Jul 29, 2019 21:33:38: ROMTbl[0][0]: E000E000, CID: B105E00D, PID: 000BB000 SCS
+Mon Jul 29, 2019 21:33:38: ROMTbl[0][1]: E0001000, CID: B105E00D, PID: 003BB002 DWT
+Mon Jul 29, 2019 21:33:38: ROMTbl[0][2]: E0002000, CID: B105E00D, PID: 002BB003 FPB
+Mon Jul 29, 2019 21:33:38: Reset: Halt core after reset via DEMCR.VC_CORERESET.
+Mon Jul 29, 2019 21:33:38: Reset: Reset device via AIRCR.SYSRESETREQ.
+Mon Jul 29, 2019 21:33:38: 方法0によるハードウェアリセットが実行されました
+Mon Jul 29, 2019 21:33:38: 初期リセットが実行されました
+Mon Jul 29, 2019 21:33:41: J-Link: Flash download: Bank 0 @ 0x00000000: 1 range affected (45056 bytes)
+Mon Jul 29, 2019 21:33:41: J-Link: Flash download: Total time needed: 1.434s (Prepare: 0.030s, Compare: 0.006s, Erase: 0.912s, Program: 0.476s, Verify: 0.001s, Restore: 0.007s)
+Mon Jul 29, 2019 21:33:41: 44197 バイトがダウンロード済み(20.31 KB/秒)
+Mon Jul 29, 2019 21:33:41: ロードされたデバッギー: C:\kaihatsu\toYou\hs\firmware\nRF52 SDK\SDK14.2.0\project\hs\hs\pca10040e\s112\iar\_build\ble_app_template_pca10040e_s112.out
+Mon Jul 29, 2019 21:33:41: Reset: Halt core after reset via DEMCR.VC_CORERESET.
+Mon Jul 29, 2019 21:33:41: Reset: Reset device via AIRCR.SYSRESETREQ.
+Mon Jul 29, 2019 21:33:41: 方法0によるハードウェアリセットが実行されました
+Mon Jul 29, 2019 21:33:41: ターゲットリセット
+Mon Jul 29, 2019 21:33:49: ヒットしたブレークポイント: コード @ main.c:604.4、タイプ:デフォルト(自動) 
+Mon Jul 29, 2019 21:34:25: ヒットしたブレークポイント: コード @ main.c:604.4、タイプ:デフォルト(自動) 
+Mon Jul 29, 2019 21:34:30: ヒットしたブレークポイント: コード @ main.c:604.4、タイプ:デフォルト(自動) 
+Mon Jul 29, 2019 21:34:31: ヒットしたブレークポイント: コード @ main.c:605.5、タイプ:デフォルト(自動) 
+Mon Jul 29, 2019 21:34:52: ヒットしたブレークポイント: コード @ main.c:604.4、タイプ:デフォルト(自動) 
+Mon Jul 29, 2019 21:34:54: ヒットしたブレークポイント: コード @ main.c:604.4、タイプ:デフォルト(自動) 
+Mon Jul 29, 2019 21:34:56: ヒットしたブレークポイント: コード @ main.c:604.4、タイプ:デフォルト(自動) 
+Mon Jul 29, 2019 21:34:56: ヒットしたブレークポイント: コード @ main.c:605.5、タイプ:デフォルト(自動) 
+Mon Jul 29, 2019 21:34:57: ヒットしたブレークポイント: コード @ main.c:604.4、タイプ:デフォルト(自動) 
+Mon Jul 29, 2019 21:35:30: ヒットしたブレークポイント: コード @ main.c:604.4、タイプ:デフォルト(自動) 
+Mon Jul 29, 2019 21:35:54: ヒットしたブレークポイント: コード @ main.c:604.4、タイプ:デフォルト(自動) 
+Mon Jul 29, 2019 21:36:02: ヒットしたブレークポイント: コード @ main.c:604.4、タイプ:デフォルト(自動) 
+Mon Jul 29, 2019 21:36:12: ヒットしたブレークポイント: コード @ main.c:604.4、タイプ:デフォルト(自動) 
+Mon Jul 29, 2019 21:36:18: ヒットしたブレークポイント: コード @ main.c:610.2、タイプ:デフォルト(自動) 
+Mon Jul 29, 2019 21:36:52: ヒットしたブレークポイント: コード @ main.c:610.2、タイプ:デフォルト(自動) 
+Mon Jul 29, 2019 21:37:36: ヒットしたブレークポイント: コード @ main.c:605.5、タイプ:デフォルト(自動) 
+
+
+ << ファイルへのロギングを再開します >> 
+
+Mon Jul 29, 2019 21:38:57: JLINKコマンド:ProjectFile = C:\kaihatsu\toYou\hs\firmware\nRF52 SDK\SDK14.2.0\project\hs\hs\pca10040e\s112\iar\settings\ble_app_template_pca10040e_s112_nrf52810_xxaa.jlink、リターン値 = 0
+
+Mon Jul 29, 2019 21:38:57: Device "NRF52810_XXAA" selected.
+Mon Jul 29, 2019 21:38:57: DLLバージョン:V6.44a、Mar  8 2019 17:31:48がコンパイルされました
+
+Mon Jul 29, 2019 21:38:57: ファームウェア:J-Link V10 compiled Mar  7 2019 15:19:19
+
+Mon Jul 29, 2019 21:38:57: 現在のターゲットインタフェースとしてSWDを選択しています。
+
+Mon Jul 29, 2019 21:38:57: JTAG速度の初期値:は1000 kHzです
+Mon Jul 29, 2019 21:38:57: Found SW-DP with ID 0x2BA01477
+Mon Jul 29, 2019 21:38:57: Found SW-DP with ID 0x2BA01477
+Mon Jul 29, 2019 21:38:57: Scanning AP map to find all available APs
+Mon Jul 29, 2019 21:38:57: AP[2]: Stopped AP scan as end of AP map has been reached
+Mon Jul 29, 2019 21:38:57: AP[0]: AHB-AP (IDR: 0x24770011)
+Mon Jul 29, 2019 21:38:57: AP[1]: JTAG-AP (IDR: 0x02880000)
+Mon Jul 29, 2019 21:38:57: Iterating through AP map to find AHB-AP to use
+Mon Jul 29, 2019 21:38:57: AP[0]: Core found
+Mon Jul 29, 2019 21:38:57: AP[0]: AHB-AP ROM base: 0xE00FF000
+Mon Jul 29, 2019 21:38:57: CPUID register: 0x410FC241. Implementer code: 0x41 (ARM)
+Mon Jul 29, 2019 21:38:57: Found Cortex-M4 r0p1, Little endian.
+Mon Jul 29, 2019 21:38:57: FPUnit: 6 code (BP) slots and 2 literal slots
+Mon Jul 29, 2019 21:38:57: CoreSight components:
+Mon Jul 29, 2019 21:38:57: ROMTbl[0] @ E00FF000
+Mon Jul 29, 2019 21:38:57: ROMTbl[0][0]: E000E000, CID: B105E00D, PID: 000BB000 SCS
+Mon Jul 29, 2019 21:38:57: ROMTbl[0][1]: E0001000, CID: B105E00D, PID: 003BB002 DWT
+Mon Jul 29, 2019 21:38:57: ROMTbl[0][2]: E0002000, CID: B105E00D, PID: 002BB003 FPB
+Mon Jul 29, 2019 21:38:57: Reset: Halt core after reset via DEMCR.VC_CORERESET.
+Mon Jul 29, 2019 21:38:57: Reset: Reset device via AIRCR.SYSRESETREQ.
+Mon Jul 29, 2019 21:38:57: 方法0によるハードウェアリセットが実行されました
+Mon Jul 29, 2019 21:38:57: 初期リセットが実行されました
+Mon Jul 29, 2019 21:38:58: J-Link: Flash download: Bank 0 @ 0x00000000: 1 range affected (4096 bytes)
+Mon Jul 29, 2019 21:38:58: J-Link: Flash download: Total time needed: 0.206s (Prepare: 0.028s, Compare: 0.036s, Erase: 0.083s, Program: 0.050s, Verify: 0.000s, Restore: 0.005s)
+Mon Jul 29, 2019 21:38:58: 44197 バイトがダウンロード済み(50.19 KB/秒)
+Mon Jul 29, 2019 21:38:58: ロードされたデバッギー: C:\kaihatsu\toYou\hs\firmware\nRF52 SDK\SDK14.2.0\project\hs\hs\pca10040e\s112\iar\_build\ble_app_template_pca10040e_s112.out
+Mon Jul 29, 2019 21:38:58: Reset: Halt core after reset via DEMCR.VC_CORERESET.
+Mon Jul 29, 2019 21:38:58: Reset: Reset device via AIRCR.SYSRESETREQ.
+Mon Jul 29, 2019 21:38:59: 方法0によるハードウェアリセットが実行されました
+Mon Jul 29, 2019 21:38:59: ターゲットリセット
+Mon Jul 29, 2019 21:39:17: ヒットしたブレークポイント: コード @ main.c:605.5、タイプ:デフォルト(自動) 
+Mon Jul 29, 2019 21:39:21: ヒットしたブレークポイント: コード @ main.c:605.5、タイプ:デフォルト(自動) 
+Mon Jul 29, 2019 21:39:22: ヒットしたブレークポイント: コード @ main.c:605.5、タイプ:デフォルト(自動) 
+Mon Jul 29, 2019 21:39:23: ヒットしたブレークポイント: コード @ main.c:605.5、タイプ:デフォルト(自動) 
+Mon Jul 29, 2019 21:39:27: ヒットしたブレークポイント: コード @ main.c:610.2、タイプ:デフォルト(自動) 
+Mon Jul 29, 2019 21:40:02: ヒットしたブレークポイント: コード @ main.c:605.5、タイプ:デフォルト(自動) 
+Mon Jul 29, 2019 21:40:54: ヒットしたブレークポイント: コード @ main.c:610.2、タイプ:デフォルト(自動) 
+Mon Jul 29, 2019 21:41:27: ヒットしたブレークポイント: コード @ main.c:605.5、タイプ:デフォルト(自動) 
+Mon Jul 29, 2019 21:42:49: ヒットしたブレークポイント: コード @ main.c:610.2、タイプ:デフォルト(自動) 
+Mon Jul 29, 2019 21:43:25: ヒットしたブレークポイント: コード @ main.c:610.2、タイプ:デフォルト(自動) 
+Mon Jul 29, 2019 21:44:39: ヒットしたブレークポイント: コード @ main.c:610.2、タイプ:デフォルト(自動) 
+Mon Jul 29, 2019 21:45:26: ヒットしたブレークポイント: コード @ main.c:605.5、タイプ:デフォルト(自動) 
+Mon Jul 29, 2019 21:46:27: ヒットしたブレークポイント: コード @ main.c:605.5、タイプ:デフォルト(自動) 
+Mon Jul 29, 2019 21:46:29: ヒットしたブレークポイント: コード @ main.c:605.5、タイプ:デフォルト(自動) 
+Mon Jul 29, 2019 21:46:30: ヒットしたブレークポイント: コード @ main.c:605.5、タイプ:デフォルト(自動) 
+Mon Jul 29, 2019 21:46:30: ヒットしたブレークポイント: コード @ main.c:605.5、タイプ:デフォルト(自動) 
+Mon Jul 29, 2019 21:46:31: ヒットしたブレークポイント: コード @ main.c:605.5、タイプ:デフォルト(自動) 
+Mon Jul 29, 2019 21:46:33: ヒットしたブレークポイント: コード @ main.c:610.2、タイプ:デフォルト(自動) 
+Mon Jul 29, 2019 21:47:08: ヒットしたブレークポイント: コード @ main.c:605.5、タイプ:デフォルト(自動) 
+Mon Jul 29, 2019 21:47:30: ヒットしたブレークポイント: コード @ main.c:610.2、タイプ:デフォルト(自動) 
+Mon Jul 29, 2019 21:48:02: ヒットしたブレークポイント: コード @ main.c:610.2、タイプ:デフォルト(自動) 
+Mon Jul 29, 2019 21:48:35: ヒットしたブレークポイント: コード @ main.c:610.2、タイプ:デフォルト(自動) 
+Mon Jul 29, 2019 21:50:15: ヒットしたブレークポイント: コード @ main.c:610.2、タイプ:デフォルト(自動) 
+Mon Jul 29, 2019 21:51:18: ヒットしたブレークポイント: コード @ main.c:610.2、タイプ:デフォルト(自動) 
+Mon Jul 29, 2019 21:56:23: ヒットしたブレークポイント: コード @ main.c:605.5、タイプ:デフォルト(自動) 
+Mon Jul 29, 2019 21:59:25: ヒットしたブレークポイント: コード @ main.c:605.5、タイプ:デフォルト(自動) 
+
+
+ << ファイルへのロギングを再開します >> 
+
+Mon Jul 29, 2019 22:02:18: JLINKコマンド:ProjectFile = C:\kaihatsu\toYou\hs\firmware\nRF52 SDK\SDK14.2.0\project\hs\hs\pca10040e\s112\iar\settings\ble_app_template_pca10040e_s112_nrf52810_xxaa.jlink、リターン値 = 0
+
+Mon Jul 29, 2019 22:02:18: Device "NRF52810_XXAA" selected.
+Mon Jul 29, 2019 22:02:18: DLLバージョン:V6.44a、Mar  8 2019 17:31:48がコンパイルされました
+
+Mon Jul 29, 2019 22:02:18: ファームウェア:J-Link V10 compiled Mar  7 2019 15:19:19
+
+Mon Jul 29, 2019 22:02:18: 現在のターゲットインタフェースとしてSWDを選択しています。
+
+Mon Jul 29, 2019 22:02:18: JTAG速度の初期値:は1000 kHzです
+Mon Jul 29, 2019 22:02:18: Found SW-DP with ID 0x2BA01477
+Mon Jul 29, 2019 22:02:18: Found SW-DP with ID 0x2BA01477
+Mon Jul 29, 2019 22:02:18: Scanning AP map to find all available APs
+Mon Jul 29, 2019 22:02:18: AP[2]: Stopped AP scan as end of AP map has been reached
+Mon Jul 29, 2019 22:02:18: AP[0]: AHB-AP (IDR: 0x24770011)
+Mon Jul 29, 2019 22:02:18: AP[1]: JTAG-AP (IDR: 0x02880000)
+Mon Jul 29, 2019 22:02:18: Iterating through AP map to find AHB-AP to use
+Mon Jul 29, 2019 22:02:18: AP[0]: Core found
+Mon Jul 29, 2019 22:02:18: AP[0]: AHB-AP ROM base: 0xE00FF000
+Mon Jul 29, 2019 22:02:18: CPUID register: 0x410FC241. Implementer code: 0x41 (ARM)
+Mon Jul 29, 2019 22:02:18: Found Cortex-M4 r0p1, Little endian.
+Mon Jul 29, 2019 22:02:18: FPUnit: 6 code (BP) slots and 2 literal slots
+Mon Jul 29, 2019 22:02:18: CoreSight components:
+Mon Jul 29, 2019 22:02:18: ROMTbl[0] @ E00FF000
+Mon Jul 29, 2019 22:02:18: ROMTbl[0][0]: E000E000, CID: B105E00D, PID: 000BB000 SCS
+Mon Jul 29, 2019 22:02:18: ROMTbl[0][1]: E0001000, CID: B105E00D, PID: 003BB002 DWT
+Mon Jul 29, 2019 22:02:18: ROMTbl[0][2]: E0002000, CID: B105E00D, PID: 002BB003 FPB
+Mon Jul 29, 2019 22:02:18: Reset: Halt core after reset via DEMCR.VC_CORERESET.
+Mon Jul 29, 2019 22:02:18: Reset: Reset device via AIRCR.SYSRESETREQ.
+Mon Jul 29, 2019 22:02:18: 方法0によるハードウェアリセットが実行されました
+Mon Jul 29, 2019 22:02:18: 初期リセットが実行されました
+Mon Jul 29, 2019 22:02:19: J-Link: Flash download: Bank 0 @ 0x00000000: 1 range affected (4096 bytes)
+Mon Jul 29, 2019 22:02:19: J-Link: Flash download: Total time needed: 0.205s (Prepare: 0.029s, Compare: 0.036s, Erase: 0.083s, Program: 0.050s, Verify: 0.000s, Restore: 0.004s)
+Mon Jul 29, 2019 22:02:19: 44197 バイトがダウンロード済み(49.33 KB/秒)
+Mon Jul 29, 2019 22:02:19: ロードされたデバッギー: C:\kaihatsu\toYou\hs\firmware\nRF52 SDK\SDK14.2.0\project\hs\hs\pca10040e\s112\iar\_build\ble_app_template_pca10040e_s112.out
+Mon Jul 29, 2019 22:02:19: Reset: Halt core after reset via DEMCR.VC_CORERESET.
+Mon Jul 29, 2019 22:02:19: Reset: Reset device via AIRCR.SYSRESETREQ.
+Mon Jul 29, 2019 22:02:19: 方法0によるハードウェアリセットが実行されました
+Mon Jul 29, 2019 22:02:19: ターゲットリセット
+Mon Jul 29, 2019 22:02:28: ヒットしたブレークポイント: コード @ main.c:605.5、タイプ:デフォルト(自動) 
+Mon Jul 29, 2019 22:02:33: ヒットしたブレークポイント: コード @ main.c:610.2、タイプ:デフォルト(自動) 
+Mon Jul 29, 2019 22:06:20: ヒットしたブレークポイント: コード @ main.c:605.5、タイプ:デフォルト(自動) 
+
+
+ << ファイルへのロギングを再開します >> 
+
+Mon Jul 29, 2019 22:14:19: JLINKコマンド:ProjectFile = C:\kaihatsu\toYou\hs\firmware\nRF52 SDK\SDK14.2.0\project\hs\hs\pca10040e\s112\iar\settings\ble_app_template_pca10040e_s112_nrf52810_xxaa.jlink、リターン値 = 0
+
+Mon Jul 29, 2019 22:14:19: Device "NRF52810_XXAA" selected.
+Mon Jul 29, 2019 22:14:19: DLLバージョン:V6.44a、Mar  8 2019 17:31:48がコンパイルされました
+
+Mon Jul 29, 2019 22:14:19: ファームウェア:J-Link V10 compiled Mar  7 2019 15:19:19
+
+Mon Jul 29, 2019 22:14:19: 現在のターゲットインタフェースとしてSWDを選択しています。
+
+Mon Jul 29, 2019 22:14:19: JTAG速度の初期値:は1000 kHzです
+Mon Jul 29, 2019 22:14:19: Found SW-DP with ID 0x2BA01477
+Mon Jul 29, 2019 22:14:19: Found SW-DP with ID 0x2BA01477
+Mon Jul 29, 2019 22:14:19: Scanning AP map to find all available APs
+Mon Jul 29, 2019 22:14:19: AP[2]: Stopped AP scan as end of AP map has been reached
+Mon Jul 29, 2019 22:14:19: AP[0]: AHB-AP (IDR: 0x24770011)
+Mon Jul 29, 2019 22:14:19: AP[1]: JTAG-AP (IDR: 0x02880000)
+Mon Jul 29, 2019 22:14:19: Iterating through AP map to find AHB-AP to use
+Mon Jul 29, 2019 22:14:19: AP[0]: Core found
+Mon Jul 29, 2019 22:14:19: AP[0]: AHB-AP ROM base: 0xE00FF000
+Mon Jul 29, 2019 22:14:19: CPUID register: 0x410FC241. Implementer code: 0x41 (ARM)
+Mon Jul 29, 2019 22:14:19: Found Cortex-M4 r0p1, Little endian.
+Mon Jul 29, 2019 22:14:19: FPUnit: 6 code (BP) slots and 2 literal slots
+Mon Jul 29, 2019 22:14:19: CoreSight components:
+Mon Jul 29, 2019 22:14:19: ROMTbl[0] @ E00FF000
+Mon Jul 29, 2019 22:14:19: ROMTbl[0][0]: E000E000, CID: B105E00D, PID: 000BB000 SCS
+Mon Jul 29, 2019 22:14:19: ROMTbl[0][1]: E0001000, CID: B105E00D, PID: 003BB002 DWT
+Mon Jul 29, 2019 22:14:19: ROMTbl[0][2]: E0002000, CID: B105E00D, PID: 002BB003 FPB
+Mon Jul 29, 2019 22:14:19: Reset: Halt core after reset via DEMCR.VC_CORERESET.
+Mon Jul 29, 2019 22:14:19: Reset: Reset device via AIRCR.SYSRESETREQ.
+Mon Jul 29, 2019 22:14:19: 方法0によるハードウェアリセットが実行されました
+Mon Jul 29, 2019 22:14:19: 初期リセットが実行されました
+Mon Jul 29, 2019 22:14:22: J-Link: Flash download: Bank 0 @ 0x00000000: 1 range affected (45056 bytes)
+Mon Jul 29, 2019 22:14:22: J-Link: Flash download: Total time needed: 1.429s (Prepare: 0.028s, Compare: 0.006s, Erase: 0.912s, Program: 0.476s, Verify: 0.000s, Restore: 0.005s)
+Mon Jul 29, 2019 22:14:22: 44229 バイトがダウンロード済み(20.63 KB/秒)
+Mon Jul 29, 2019 22:14:22: ロードされたデバッギー: C:\kaihatsu\toYou\hs\firmware\nRF52 SDK\SDK14.2.0\project\hs\hs\pca10040e\s112\iar\_build\ble_app_template_pca10040e_s112.out
+Mon Jul 29, 2019 22:14:22: Reset: Halt core after reset via DEMCR.VC_CORERESET.
+Mon Jul 29, 2019 22:14:22: Reset: Reset device via AIRCR.SYSRESETREQ.
+Mon Jul 29, 2019 22:14:22: 方法0によるハードウェアリセットが実行されました
+Mon Jul 29, 2019 22:14:22: ターゲットリセット
+Mon Jul 29, 2019 22:14:30: ヒットしたブレークポイント: コード @ main.c:607.5、タイプ:デフォルト(自動) 
+Mon Jul 29, 2019 22:14:35: ヒットしたブレークポイント: コード @ main.c:612.2、タイプ:デフォルト(自動) 
+
+
+ << ファイルへのロギングを再開します >> 
+
+Mon Jul 29, 2019 22:24:00: JLINKコマンド:ProjectFile = C:\kaihatsu\toYou\hs\firmware\nRF52 SDK\SDK14.2.0\project\hs\hs\pca10040e\s112\iar\settings\ble_app_template_pca10040e_s112_nrf52810_xxaa.jlink、リターン値 = 0
+
+Mon Jul 29, 2019 22:24:00: Device "NRF52810_XXAA" selected.
+Mon Jul 29, 2019 22:24:00: DLLバージョン:V6.44a、Mar  8 2019 17:31:48がコンパイルされました
+
+Mon Jul 29, 2019 22:24:00: ファームウェア:J-Link V10 compiled Mar  7 2019 15:19:19
+
+Mon Jul 29, 2019 22:24:00: 現在のターゲットインタフェースとしてSWDを選択しています。
+
+Mon Jul 29, 2019 22:24:00: JTAG速度の初期値:は1000 kHzです
+Mon Jul 29, 2019 22:24:00: Found SW-DP with ID 0x2BA01477
+Mon Jul 29, 2019 22:24:00: Found SW-DP with ID 0x2BA01477
+Mon Jul 29, 2019 22:24:00: Scanning AP map to find all available APs
+Mon Jul 29, 2019 22:24:00: AP[2]: Stopped AP scan as end of AP map has been reached
+Mon Jul 29, 2019 22:24:00: AP[0]: AHB-AP (IDR: 0x24770011)
+Mon Jul 29, 2019 22:24:00: AP[1]: JTAG-AP (IDR: 0x02880000)
+Mon Jul 29, 2019 22:24:00: Iterating through AP map to find AHB-AP to use
+Mon Jul 29, 2019 22:24:00: AP[0]: Core found
+Mon Jul 29, 2019 22:24:00: AP[0]: AHB-AP ROM base: 0xE00FF000
+Mon Jul 29, 2019 22:24:00: CPUID register: 0x410FC241. Implementer code: 0x41 (ARM)
+Mon Jul 29, 2019 22:24:00: Found Cortex-M4 r0p1, Little endian.
+Mon Jul 29, 2019 22:24:00: FPUnit: 6 code (BP) slots and 2 literal slots
+Mon Jul 29, 2019 22:24:00: CoreSight components:
+Mon Jul 29, 2019 22:24:00: ROMTbl[0] @ E00FF000
+Mon Jul 29, 2019 22:24:00: ROMTbl[0][0]: E000E000, CID: B105E00D, PID: 000BB000 SCS
+Mon Jul 29, 2019 22:24:00: ROMTbl[0][1]: E0001000, CID: B105E00D, PID: 003BB002 DWT
+Mon Jul 29, 2019 22:24:00: ROMTbl[0][2]: E0002000, CID: B105E00D, PID: 002BB003 FPB
+Mon Jul 29, 2019 22:24:00: Reset: Halt core after reset via DEMCR.VC_CORERESET.
+Mon Jul 29, 2019 22:24:00: Reset: Reset device via AIRCR.SYSRESETREQ.
+Mon Jul 29, 2019 22:24:00: 方法0によるハードウェアリセットが実行されました
+Mon Jul 29, 2019 22:24:00: 初期リセットが実行されました
+Mon Jul 29, 2019 22:24:01: ダウンロードについて0バイトが抑制されました
+Mon Jul 29, 2019 22:24:01: ロードされたデバッギー: C:\kaihatsu\toYou\hs\firmware\nRF52 SDK\SDK14.2.0\project\hs\hs\pca10040e\s112\iar\_build\ble_app_template_pca10040e_s112.out
+Mon Jul 29, 2019 22:24:01: Reset: Halt core after reset via DEMCR.VC_CORERESET.
+Mon Jul 29, 2019 22:24:01: Reset: Reset device via AIRCR.SYSRESETREQ.
+Mon Jul 29, 2019 22:24:01: 方法0によるハードウェアリセットが実行されました
+Mon Jul 29, 2019 22:24:01: ターゲットリセット
+Mon Jul 29, 2019 22:24:10: ヒットしたブレークポイント: コード @ main.c:607.5、タイプ:デフォルト(自動) 
+Mon Jul 29, 2019 22:24:15: ヒットしたブレークポイント: コード @ main.c:612.2、タイプ:デフォルト(自動) 
+Mon Jul 29, 2019 22:25:19: ヒットしたブレークポイント: コード @ main.c:607.5、タイプ:デフォルト(自動) 
+Mon Jul 29, 2019 22:29:20: ヒットしたブレークポイント: コード @ main.c:607.5、タイプ:デフォルト(自動) 
+Mon Jul 29, 2019 22:30:01: ヒットしたブレークポイント: コード @ main.c:607.5、タイプ:デフォルト(自動) 
+Mon Jul 29, 2019 22:30:32: ヒットしたブレークポイント: コード @ main.c:607.5、タイプ:デフォルト(自動) 
+Mon Jul 29, 2019 22:30:35: ヒットしたブレークポイント: コード @ main.c:612.2、タイプ:デフォルト(自動) 
+Mon Jul 29, 2019 22:36:10: ヒットしたブレークポイント: コード @ main.c:607.5、タイプ:デフォルト(自動) 
+
+
+ << ファイルへのロギングを再開します >> 
+
+Mon Jul 29, 2019 22:52:36: JLINKコマンド:ProjectFile = C:\kaihatsu\toYou\hs\firmware\nRF52 SDK\SDK14.2.0\project\hs\hs\pca10040e\s112\iar\settings\ble_app_template_pca10040e_s112_nrf52810_xxaa.jlink、リターン値 = 0
+
+Mon Jul 29, 2019 22:52:36: Device "NRF52810_XXAA" selected.
+Mon Jul 29, 2019 22:52:36: DLLバージョン:V6.44a、Mar  8 2019 17:31:48がコンパイルされました
+
+Mon Jul 29, 2019 22:52:36: ファームウェア:J-Link V10 compiled Mar  7 2019 15:19:19
+
+Mon Jul 29, 2019 22:52:36: 現在のターゲットインタフェースとしてSWDを選択しています。
+
+Mon Jul 29, 2019 22:52:36: JTAG速度の初期値:は1000 kHzです
+Mon Jul 29, 2019 22:52:36: Found SW-DP with ID 0x2BA01477
+Mon Jul 29, 2019 22:52:36: Found SW-DP with ID 0x2BA01477
+Mon Jul 29, 2019 22:52:36: Scanning AP map to find all available APs
+Mon Jul 29, 2019 22:52:36: AP[2]: Stopped AP scan as end of AP map has been reached
+Mon Jul 29, 2019 22:52:36: AP[0]: AHB-AP (IDR: 0x24770011)
+Mon Jul 29, 2019 22:52:36: AP[1]: JTAG-AP (IDR: 0x02880000)
+Mon Jul 29, 2019 22:52:36: Iterating through AP map to find AHB-AP to use
+Mon Jul 29, 2019 22:52:36: AP[0]: Core found
+Mon Jul 29, 2019 22:52:36: AP[0]: AHB-AP ROM base: 0xE00FF000
+Mon Jul 29, 2019 22:52:36: CPUID register: 0x410FC241. Implementer code: 0x41 (ARM)
+Mon Jul 29, 2019 22:52:36: Found Cortex-M4 r0p1, Little endian.
+Mon Jul 29, 2019 22:52:36: FPUnit: 6 code (BP) slots and 2 literal slots
+Mon Jul 29, 2019 22:52:36: CoreSight components:
+Mon Jul 29, 2019 22:52:36: ROMTbl[0] @ E00FF000
+Mon Jul 29, 2019 22:52:36: ROMTbl[0][0]: E000E000, CID: B105E00D, PID: 000BB000 SCS
+Mon Jul 29, 2019 22:52:36: ROMTbl[0][1]: E0001000, CID: B105E00D, PID: 003BB002 DWT
+Mon Jul 29, 2019 22:52:36: ROMTbl[0][2]: E0002000, CID: B105E00D, PID: 002BB003 FPB
+Mon Jul 29, 2019 22:52:36: Reset: Halt core after reset via DEMCR.VC_CORERESET.
+Mon Jul 29, 2019 22:52:36: Reset: Reset device via AIRCR.SYSRESETREQ.
+Mon Jul 29, 2019 22:52:37: 方法0によるハードウェアリセットが実行されました
+Mon Jul 29, 2019 22:52:37: 初期リセットが実行されました
+Mon Jul 29, 2019 22:52:39: J-Link: Flash download: Bank 0 @ 0x00000000: 1 range affected (45056 bytes)
+Mon Jul 29, 2019 22:52:39: J-Link: Flash download: Total time needed: 1.432s (Prepare: 0.031s, Compare: 0.006s, Erase: 0.911s, Program: 0.475s, Verify: 0.001s, Restore: 0.004s)
+Mon Jul 29, 2019 22:52:39: 44509 バイトがダウンロード済み(20.61 KB/秒)
+Mon Jul 29, 2019 22:52:39: ロードされたデバッギー: C:\kaihatsu\toYou\hs\firmware\nRF52 SDK\SDK14.2.0\project\hs\hs\pca10040e\s112\iar\_build\ble_app_template_pca10040e_s112.out
+Mon Jul 29, 2019 22:52:39: Reset: Halt core after reset via DEMCR.VC_CORERESET.
+Mon Jul 29, 2019 22:52:39: Reset: Reset device via AIRCR.SYSRESETREQ.
+Mon Jul 29, 2019 22:52:39: 方法0によるハードウェアリセットが実行されました
+Mon Jul 29, 2019 22:52:39: ターゲットリセット
+Mon Jul 29, 2019 22:52:57: ヒットしたブレークポイント: コード @ main.c:626.6、タイプ:デフォルト(自動) 
+Mon Jul 29, 2019 22:53:22: ヒットしたブレークポイント: コード @ main.c:626.6、タイプ:デフォルト(自動) 
+Mon Jul 29, 2019 22:53:27: ヒットしたブレークポイント: コード @ main.c:632.2、タイプ:デフォルト(自動) 
+Mon Jul 29, 2019 22:54:01: ヒットしたブレークポイント: コード @ main.c:626.6、タイプ:デフォルト(自動) 
+Mon Jul 29, 2019 23:00:51: ヒットしたブレークポイント: コード @ main.c:626.6、タイプ:デフォルト(自動) 
+Mon Jul 29, 2019 23:00:52: ヒットしたブレークポイント: コード @ main.c:626.6、タイプ:デフォルト(自動) 
+Mon Jul 29, 2019 23:00:53: ヒットしたブレークポイント: コード @ main.c:626.6、タイプ:デフォルト(自動) 
+Mon Jul 29, 2019 23:00:53: ヒットしたブレークポイント: コード @ main.c:626.6、タイプ:デフォルト(自動) 
+Mon Jul 29, 2019 23:01:26: ヒットしたブレークポイント: コード @ main.c:626.6、タイプ:デフォルト(自動) 
+Mon Jul 29, 2019 23:01:30: ヒットしたブレークポイント: コード @ main.c:632.2、タイプ:デフォルト(自動) 
+Mon Jul 29, 2019 23:02:04: ヒットしたブレークポイント: コード @ main.c:632.2、タイプ:デフォルト(自動) 
+Mon Jul 29, 2019 23:09:17: ヒットしたブレークポイント: コード @ main.c:626.6、タイプ:デフォルト(自動) 
+Mon Jul 29, 2019 23:09:24: ヒットしたブレークポイント: コード @ main.c:626.6、タイプ:デフォルト(自動) 
+Mon Jul 29, 2019 23:09:27: ヒットしたブレークポイント: コード @ main.c:632.2、タイプ:デフォルト(自動) 
+Mon Jul 29, 2019 23:10:00: ヒットしたブレークポイント: コード @ main.c:626.6、タイプ:デフォルト(自動) 
+
+
+ << ファイルへのロギングを再開します >> 
+
+Mon Jul 29, 2019 23:11:30: JLINKコマンド:ProjectFile = C:\kaihatsu\toYou\hs\firmware\nRF52 SDK\SDK14.2.0\project\hs\hs\pca10040e\s112\iar\settings\ble_app_template_pca10040e_s112_nrf52810_xxaa.jlink、リターン値 = 0
+
+Mon Jul 29, 2019 23:11:30: Device "NRF52810_XXAA" selected.
+Mon Jul 29, 2019 23:11:30: DLLバージョン:V6.44a、Mar  8 2019 17:31:48がコンパイルされました
+
+Mon Jul 29, 2019 23:11:30: ファームウェア:J-Link V10 compiled Mar  7 2019 15:19:19
+
+Mon Jul 29, 2019 23:11:30: 現在のターゲットインタフェースとしてSWDを選択しています。
+
+Mon Jul 29, 2019 23:11:30: JTAG速度の初期値:は1000 kHzです
+Mon Jul 29, 2019 23:11:30: Found SW-DP with ID 0x2BA01477
+Mon Jul 29, 2019 23:11:30: Found SW-DP with ID 0x2BA01477
+Mon Jul 29, 2019 23:11:30: Scanning AP map to find all available APs
+Mon Jul 29, 2019 23:11:30: AP[2]: Stopped AP scan as end of AP map has been reached
+Mon Jul 29, 2019 23:11:30: AP[0]: AHB-AP (IDR: 0x24770011)
+Mon Jul 29, 2019 23:11:30: AP[1]: JTAG-AP (IDR: 0x02880000)
+Mon Jul 29, 2019 23:11:30: Iterating through AP map to find AHB-AP to use
+Mon Jul 29, 2019 23:11:30: AP[0]: Core found
+Mon Jul 29, 2019 23:11:30: AP[0]: AHB-AP ROM base: 0xE00FF000
+Mon Jul 29, 2019 23:11:30: CPUID register: 0x410FC241. Implementer code: 0x41 (ARM)
+Mon Jul 29, 2019 23:11:30: Found Cortex-M4 r0p1, Little endian.
+Mon Jul 29, 2019 23:11:30: FPUnit: 6 code (BP) slots and 2 literal slots
+Mon Jul 29, 2019 23:11:30: CoreSight components:
+Mon Jul 29, 2019 23:11:30: ROMTbl[0] @ E00FF000
+Mon Jul 29, 2019 23:11:30: ROMTbl[0][0]: E000E000, CID: B105E00D, PID: 000BB000 SCS
+Mon Jul 29, 2019 23:11:30: ROMTbl[0][1]: E0001000, CID: B105E00D, PID: 003BB002 DWT
+Mon Jul 29, 2019 23:11:30: ROMTbl[0][2]: E0002000, CID: B105E00D, PID: 002BB003 FPB
+Mon Jul 29, 2019 23:11:30: Reset: Halt core after reset via DEMCR.VC_CORERESET.
+Mon Jul 29, 2019 23:11:30: Reset: Reset device via AIRCR.SYSRESETREQ.
+Mon Jul 29, 2019 23:11:30: 方法0によるハードウェアリセットが実行されました
+Mon Jul 29, 2019 23:11:30: 初期リセットが実行されました
+Mon Jul 29, 2019 23:11:31: J-Link: Flash download: Bank 0 @ 0x00000000: 1 range affected (4096 bytes)
+Mon Jul 29, 2019 23:11:31: J-Link: Flash download: Total time needed: 0.205s (Prepare: 0.028s, Compare: 0.036s, Erase: 0.084s, Program: 0.050s, Verify: 0.000s, Restore: 0.004s)
+Mon Jul 29, 2019 23:11:31: 44509 バイトがダウンロード済み(49.68 KB/秒)
+Mon Jul 29, 2019 23:11:31: ロードされたデバッギー: C:\kaihatsu\toYou\hs\firmware\nRF52 SDK\SDK14.2.0\project\hs\hs\pca10040e\s112\iar\_build\ble_app_template_pca10040e_s112.out
+Mon Jul 29, 2019 23:11:31: Reset: Halt core after reset via DEMCR.VC_CORERESET.
+Mon Jul 29, 2019 23:11:31: Reset: Reset device via AIRCR.SYSRESETREQ.
+Mon Jul 29, 2019 23:11:31: 方法0によるハードウェアリセットが実行されました
+Mon Jul 29, 2019 23:11:31: ターゲットリセット
+Mon Jul 29, 2019 23:11:42: ヒットしたブレークポイント: コード @ main.c:632.2、タイプ:デフォルト(自動) 
+Mon Jul 29, 2019 23:12:22: ヒットしたブレークポイント: コード @ main.c:626.6、タイプ:デフォルト(自動) 
+
+
+ << ファイルへのロギングを再開します >> 
+
+Mon Jul 29, 2019 23:28:22: JLINKコマンド:ProjectFile = C:\kaihatsu\toYou\hs\firmware\nRF52 SDK\SDK14.2.0\project\hs\hs\pca10040e\s112\iar\settings\ble_app_template_pca10040e_s112_nrf52810_xxaa.jlink、リターン値 = 0
+
+Mon Jul 29, 2019 23:28:22: Device "NRF52810_XXAA" selected.
+Mon Jul 29, 2019 23:28:22: DLLバージョン:V6.44a、Mar  8 2019 17:31:48がコンパイルされました
+
+Mon Jul 29, 2019 23:28:22: ファームウェア:J-Link V10 compiled Mar  7 2019 15:19:19
+
+Mon Jul 29, 2019 23:28:22: 現在のターゲットインタフェースとしてSWDを選択しています。
+
+Mon Jul 29, 2019 23:28:22: JTAG速度の初期値:は1000 kHzです
+Mon Jul 29, 2019 23:28:22: Found SW-DP with ID 0x2BA01477
+Mon Jul 29, 2019 23:28:22: Found SW-DP with ID 0x2BA01477
+Mon Jul 29, 2019 23:28:22: Scanning AP map to find all available APs
+Mon Jul 29, 2019 23:28:22: AP[2]: Stopped AP scan as end of AP map has been reached
+Mon Jul 29, 2019 23:28:22: AP[0]: AHB-AP (IDR: 0x24770011)
+Mon Jul 29, 2019 23:28:22: AP[1]: JTAG-AP (IDR: 0x02880000)
+Mon Jul 29, 2019 23:28:22: Iterating through AP map to find AHB-AP to use
+Mon Jul 29, 2019 23:28:22: AP[0]: Core found
+Mon Jul 29, 2019 23:28:22: AP[0]: AHB-AP ROM base: 0xE00FF000
+Mon Jul 29, 2019 23:28:22: CPUID register: 0x410FC241. Implementer code: 0x41 (ARM)
+Mon Jul 29, 2019 23:28:22: Found Cortex-M4 r0p1, Little endian.
+Mon Jul 29, 2019 23:28:22: FPUnit: 6 code (BP) slots and 2 literal slots
+Mon Jul 29, 2019 23:28:22: CoreSight components:
+Mon Jul 29, 2019 23:28:22: ROMTbl[0] @ E00FF000
+Mon Jul 29, 2019 23:28:22: ROMTbl[0][0]: E000E000, CID: B105E00D, PID: 000BB000 SCS
+Mon Jul 29, 2019 23:28:22: ROMTbl[0][1]: E0001000, CID: B105E00D, PID: 003BB002 DWT
+Mon Jul 29, 2019 23:28:22: ROMTbl[0][2]: E0002000, CID: B105E00D, PID: 002BB003 FPB
+Mon Jul 29, 2019 23:28:22: Reset: Halt core after reset via DEMCR.VC_CORERESET.
+Mon Jul 29, 2019 23:28:22: Reset: Reset device via AIRCR.SYSRESETREQ.
+Mon Jul 29, 2019 23:28:23: 方法0によるハードウェアリセットが実行されました
+Mon Jul 29, 2019 23:28:23: 初期リセットが実行されました
+Mon Jul 29, 2019 23:28:25: J-Link: Flash download: Bank 0 @ 0x00000000: 1 range affected (45056 bytes)
+Mon Jul 29, 2019 23:28:25: J-Link: Flash download: Total time needed: 1.431s (Prepare: 0.029s, Compare: 0.005s, Erase: 0.913s, Program: 0.476s, Verify: 0.000s, Restore: 0.005s)
+Mon Jul 29, 2019 23:28:25: 44153 バイトがダウンロード済み(20.59 KB/秒)
+Mon Jul 29, 2019 23:28:25: ロードされたデバッギー: C:\kaihatsu\toYou\hs\firmware\nRF52 SDK\SDK14.2.0\project\hs\hs\pca10040e\s112\iar\_build\ble_app_template_pca10040e_s112.out
+Mon Jul 29, 2019 23:28:25: Reset: Halt core after reset via DEMCR.VC_CORERESET.
+Mon Jul 29, 2019 23:28:25: Reset: Reset device via AIRCR.SYSRESETREQ.
+Mon Jul 29, 2019 23:28:25: 方法0によるハードウェアリセットが実行されました
+Mon Jul 29, 2019 23:28:25: ターゲットリセット
+Mon Jul 29, 2019 23:28:44: ヒットしたブレークポイント: コード @ main.c:623.4、タイプ:デフォルト(自動) 
+Mon Jul 29, 2019 23:29:34: ヒットしたブレークポイント: コード @ app_error_weak.c:63.5、タイプ:デフォルト(自動) 
+Mon Jul 29, 2019 23:29:34: HardFault exception.
+The processor has escalated a configurable-priority exception to HardFault.
+
+Exception occured at PC = 0xffffffff, LR = 0x0
+
+See the call stack for more information.
+
+Mon Jul 29, 2019 23:29:50: ヒットしたブレークポイント: コード @ app_error_weak.c:97.5、タイプ:デフォルト(自動) 
+Mon Jul 29, 2019 23:29:50: HardFault exception.
+The processor has escalated a configurable-priority exception to HardFault.
+
+Exception occured at PC = 0xffffffff, LR = 0x0
+
+See the call stack for more information.
+
+Mon Jul 29, 2019 23:30:03: Beware! Breakpoints were moved!
+
+
+ << ファイルへのロギングを再開します >> 
+
+Mon Jul 29, 2019 23:30:08: JLINKコマンド:ProjectFile = C:\kaihatsu\toYou\hs\firmware\nRF52 SDK\SDK14.2.0\project\hs\hs\pca10040e\s112\iar\settings\ble_app_template_pca10040e_s112_nrf52810_xxaa.jlink、リターン値 = 0
+
+Mon Jul 29, 2019 23:30:08: Device "NRF52810_XXAA" selected.
+Mon Jul 29, 2019 23:30:08: DLLバージョン:V6.44a、Mar  8 2019 17:31:48がコンパイルされました
+
+Mon Jul 29, 2019 23:30:08: ファームウェア:J-Link V10 compiled Mar  7 2019 15:19:19
+
+Mon Jul 29, 2019 23:30:08: 現在のターゲットインタフェースとしてSWDを選択しています。
+
+Mon Jul 29, 2019 23:30:08: JTAG速度の初期値:は1000 kHzです
+Mon Jul 29, 2019 23:30:08: Found SW-DP with ID 0x2BA01477
+Mon Jul 29, 2019 23:30:08: Found SW-DP with ID 0x2BA01477
+Mon Jul 29, 2019 23:30:08: Scanning AP map to find all available APs
+Mon Jul 29, 2019 23:30:08: AP[2]: Stopped AP scan as end of AP map has been reached
+Mon Jul 29, 2019 23:30:08: AP[0]: AHB-AP (IDR: 0x24770011)
+Mon Jul 29, 2019 23:30:08: AP[1]: JTAG-AP (IDR: 0x02880000)
+Mon Jul 29, 2019 23:30:08: Iterating through AP map to find AHB-AP to use
+Mon Jul 29, 2019 23:30:08: AP[0]: Core found
+Mon Jul 29, 2019 23:30:08: AP[0]: AHB-AP ROM base: 0xE00FF000
+Mon Jul 29, 2019 23:30:08: CPUID register: 0x410FC241. Implementer code: 0x41 (ARM)
+Mon Jul 29, 2019 23:30:08: Found Cortex-M4 r0p1, Little endian.
+Mon Jul 29, 2019 23:30:08: FPUnit: 6 code (BP) slots and 2 literal slots
+Mon Jul 29, 2019 23:30:08: CoreSight components:
+Mon Jul 29, 2019 23:30:08: ROMTbl[0] @ E00FF000
+Mon Jul 29, 2019 23:30:08: ROMTbl[0][0]: E000E000, CID: B105E00D, PID: 000BB000 SCS
+Mon Jul 29, 2019 23:30:08: ROMTbl[0][1]: E0001000, CID: B105E00D, PID: 003BB002 DWT
+Mon Jul 29, 2019 23:30:08: ROMTbl[0][2]: E0002000, CID: B105E00D, PID: 002BB003 FPB
+Mon Jul 29, 2019 23:30:08: Reset: Halt core after reset via DEMCR.VC_CORERESET.
+Mon Jul 29, 2019 23:30:08: Reset: Reset device via AIRCR.SYSRESETREQ.
+Mon Jul 29, 2019 23:30:08: 方法0によるハードウェアリセットが実行されました
+Mon Jul 29, 2019 23:30:08: 初期リセットが実行されました
+Mon Jul 29, 2019 23:30:10: J-Link: Flash download: Bank 0 @ 0x00000000: 1 range affected (45056 bytes)
+Mon Jul 29, 2019 23:30:10: J-Link: Flash download: Total time needed: 1.432s (Prepare: 0.028s, Compare: 0.006s, Erase: 0.913s, Program: 0.477s, Verify: 0.000s, Restore: 0.005s)
+Mon Jul 29, 2019 23:30:10: 44073 バイトがダウンロード済み(20.55 KB/秒)
+Mon Jul 29, 2019 23:30:10: ロードされたデバッギー: C:\kaihatsu\toYou\hs\firmware\nRF52 SDK\SDK14.2.0\project\hs\hs\pca10040e\s112\iar\_build\ble_app_template_pca10040e_s112.out
+Mon Jul 29, 2019 23:30:10: Reset: Halt core after reset via DEMCR.VC_CORERESET.
+Mon Jul 29, 2019 23:30:10: Reset: Reset device via AIRCR.SYSRESETREQ.
+Mon Jul 29, 2019 23:30:10: 方法0によるハードウェアリセットが実行されました
+Mon Jul 29, 2019 23:30:10: ターゲットリセット
+Mon Jul 29, 2019 23:30:18: ヒットしたブレークポイント: コード @ main.c:615.2、タイプ:デフォルト(自動) 
+Mon Jul 29, 2019 23:30:24: ヒットしたブレークポイント: コード @ main.c:623.4、タイプ:デフォルト(自動) 
+Mon Jul 29, 2019 23:30:56: ヒットしたブレークポイント: コード @ main.c:615.2、タイプ:デフォルト(自動) 
+
+
+ << ファイルへのロギングを再開します >> 
+
+Mon Jul 29, 2019 23:33:07: JLINKコマンド:ProjectFile = C:\kaihatsu\toYou\hs\firmware\nRF52 SDK\SDK14.2.0\project\hs\hs\pca10040e\s112\iar\settings\ble_app_template_pca10040e_s112_nrf52810_xxaa.jlink、リターン値 = 0
+
+Mon Jul 29, 2019 23:33:07: Device "NRF52810_XXAA" selected.
+Mon Jul 29, 2019 23:33:07: DLLバージョン:V6.44a、Mar  8 2019 17:31:48がコンパイルされました
+
+Mon Jul 29, 2019 23:33:07: ファームウェア:J-Link V10 compiled Mar  7 2019 15:19:19
+
+Mon Jul 29, 2019 23:33:07: 現在のターゲットインタフェースとしてSWDを選択しています。
+
+Mon Jul 29, 2019 23:33:07: JTAG速度の初期値:は1000 kHzです
+Mon Jul 29, 2019 23:33:07: Found SW-DP with ID 0x2BA01477
+Mon Jul 29, 2019 23:33:07: Found SW-DP with ID 0x2BA01477
+Mon Jul 29, 2019 23:33:07: Scanning AP map to find all available APs
+Mon Jul 29, 2019 23:33:07: AP[2]: Stopped AP scan as end of AP map has been reached
+Mon Jul 29, 2019 23:33:07: AP[0]: AHB-AP (IDR: 0x24770011)
+Mon Jul 29, 2019 23:33:07: AP[1]: JTAG-AP (IDR: 0x02880000)
+Mon Jul 29, 2019 23:33:07: Iterating through AP map to find AHB-AP to use
+Mon Jul 29, 2019 23:33:07: AP[0]: Core found
+Mon Jul 29, 2019 23:33:07: AP[0]: AHB-AP ROM base: 0xE00FF000
+Mon Jul 29, 2019 23:33:07: CPUID register: 0x410FC241. Implementer code: 0x41 (ARM)
+Mon Jul 29, 2019 23:33:07: Found Cortex-M4 r0p1, Little endian.
+Mon Jul 29, 2019 23:33:08: FPUnit: 6 code (BP) slots and 2 literal slots
+Mon Jul 29, 2019 23:33:08: CoreSight components:
+Mon Jul 29, 2019 23:33:08: ROMTbl[0] @ E00FF000
+Mon Jul 29, 2019 23:33:08: ROMTbl[0][0]: E000E000, CID: B105E00D, PID: 000BB000 SCS
+Mon Jul 29, 2019 23:33:08: ROMTbl[0][1]: E0001000, CID: B105E00D, PID: 003BB002 DWT
+Mon Jul 29, 2019 23:33:08: ROMTbl[0][2]: E0002000, CID: B105E00D, PID: 002BB003 FPB
+Mon Jul 29, 2019 23:33:08: Reset: Halt core after reset via DEMCR.VC_CORERESET.
+Mon Jul 29, 2019 23:33:08: Reset: Reset device via AIRCR.SYSRESETREQ.
+Mon Jul 29, 2019 23:33:08: 方法0によるハードウェアリセットが実行されました
+Mon Jul 29, 2019 23:33:08: 初期リセットが実行されました
+Mon Jul 29, 2019 23:33:10: J-Link: Flash download: Bank 0 @ 0x00000000: 1 range affected (45056 bytes)
+Mon Jul 29, 2019 23:33:10: J-Link: Flash download: Total time needed: 1.430s (Prepare: 0.028s, Compare: 0.006s, Erase: 0.912s, Program: 0.476s, Verify: 0.000s, Restore: 0.004s)
+Mon Jul 29, 2019 23:33:10: 44153 バイトがダウンロード済み(20.59 KB/秒)
+Mon Jul 29, 2019 23:33:10: ロードされたデバッギー: C:\kaihatsu\toYou\hs\firmware\nRF52 SDK\SDK14.2.0\project\hs\hs\pca10040e\s112\iar\_build\ble_app_template_pca10040e_s112.out
+Mon Jul 29, 2019 23:33:10: Reset: Halt core after reset via DEMCR.VC_CORERESET.
+Mon Jul 29, 2019 23:33:10: Reset: Reset device via AIRCR.SYSRESETREQ.
+Mon Jul 29, 2019 23:33:10: 方法0によるハードウェアリセットが実行されました
+Mon Jul 29, 2019 23:33:10: ターゲットリセット
+Mon Jul 29, 2019 23:33:25: ヒットしたブレークポイント: コード @ main.c:615.2、タイプ:デフォルト(自動) 
+Mon Jul 29, 2019 23:33:30: ヒットしたブレークポイント: コード @ main.c:623.4、タイプ:デフォルト(自動) 
+Mon Jul 29, 2019 23:34:01: ヒットしたブレークポイント: コード @ main.c:615.2、タイプ:デフォルト(自動) 
+Mon Jul 29, 2019 23:34:38: ヒットしたブレークポイント: コード @ main.c:615.2、タイプ:デフォルト(自動) 
+Mon Jul 29, 2019 23:35:16: ヒットしたブレークポイント: コード @ main.c:615.2、タイプ:デフォルト(自動) 
+Mon Jul 29, 2019 23:35:50: ヒットしたブレークポイント: コード @ main.c:615.2、タイプ:デフォルト(自動) 
+Mon Jul 29, 2019 23:36:06: ヒットしたブレークポイント: コード @ main.c:623.4、タイプ:デフォルト(自動) 
+Mon Jul 29, 2019 23:36:39: ヒットしたブレークポイント: コード @ main.c:615.2、タイプ:デフォルト(自動) 
+Mon Jul 29, 2019 23:44:12: ヒットしたブレークポイント: コード @ main.c:623.4、タイプ:デフォルト(自動) 
+Mon Jul 29, 2019 23:45:14: ヒットしたブレークポイント: コード @ main.c:615.2、タイプ:デフォルト(自動) 
+Mon Jul 29, 2019 23:45:33: ヒットしたブレークポイント: コード @ main.c:623.4、タイプ:デフォルト(自動) 
+
+
+ << ファイルへのロギングを再開します >> 
+
+Mon Jul 29, 2019 23:46:28: JLINKコマンド:ProjectFile = C:\kaihatsu\toYou\hs\firmware\nRF52 SDK\SDK14.2.0\project\hs\hs\pca10040e\s112\iar\settings\ble_app_template_pca10040e_s112_nrf52810_xxaa.jlink、リターン値 = 0
+
+Mon Jul 29, 2019 23:46:28: Device "NRF52810_XXAA" selected.
+Mon Jul 29, 2019 23:46:28: DLLバージョン:V6.44a、Mar  8 2019 17:31:48がコンパイルされました
+
+Mon Jul 29, 2019 23:46:28: ファームウェア:J-Link V10 compiled Mar  7 2019 15:19:19
+
+Mon Jul 29, 2019 23:46:28: 現在のターゲットインタフェースとしてSWDを選択しています。
+
+Mon Jul 29, 2019 23:46:28: JTAG速度の初期値:は1000 kHzです
+Mon Jul 29, 2019 23:46:28: Found SW-DP with ID 0x2BA01477
+Mon Jul 29, 2019 23:46:28: Found SW-DP with ID 0x2BA01477
+Mon Jul 29, 2019 23:46:28: Scanning AP map to find all available APs
+Mon Jul 29, 2019 23:46:28: AP[2]: Stopped AP scan as end of AP map has been reached
+Mon Jul 29, 2019 23:46:28: AP[0]: AHB-AP (IDR: 0x24770011)
+Mon Jul 29, 2019 23:46:28: AP[1]: JTAG-AP (IDR: 0x02880000)
+Mon Jul 29, 2019 23:46:28: Iterating through AP map to find AHB-AP to use
+Mon Jul 29, 2019 23:46:28: AP[0]: Core found
+Mon Jul 29, 2019 23:46:28: AP[0]: AHB-AP ROM base: 0xE00FF000
+Mon Jul 29, 2019 23:46:28: CPUID register: 0x410FC241. Implementer code: 0x41 (ARM)
+Mon Jul 29, 2019 23:46:28: Found Cortex-M4 r0p1, Little endian.
+Mon Jul 29, 2019 23:46:28: FPUnit: 6 code (BP) slots and 2 literal slots
+Mon Jul 29, 2019 23:46:28: CoreSight components:
+Mon Jul 29, 2019 23:46:28: ROMTbl[0] @ E00FF000
+Mon Jul 29, 2019 23:46:28: ROMTbl[0][0]: E000E000, CID: B105E00D, PID: 000BB000 SCS
+Mon Jul 29, 2019 23:46:28: ROMTbl[0][1]: E0001000, CID: B105E00D, PID: 003BB002 DWT
+Mon Jul 29, 2019 23:46:28: ROMTbl[0][2]: E0002000, CID: B105E00D, PID: 002BB003 FPB
+Mon Jul 29, 2019 23:46:28: Reset: Halt core after reset via DEMCR.VC_CORERESET.
+Mon Jul 29, 2019 23:46:28: Reset: Reset device via AIRCR.SYSRESETREQ.
+Mon Jul 29, 2019 23:46:28: 方法0によるハードウェアリセットが実行されました
+Mon Jul 29, 2019 23:46:28: 初期リセットが実行されました
+Mon Jul 29, 2019 23:46:29: J-Link: Flash download: Bank 0 @ 0x00000000: 1 range affected (4096 bytes)
+Mon Jul 29, 2019 23:46:29: J-Link: Flash download: Total time needed: 0.206s (Prepare: 0.029s, Compare: 0.037s, Erase: 0.084s, Program: 0.050s, Verify: 0.000s, Restore: 0.004s)
+Mon Jul 29, 2019 23:46:29: 44153 バイトがダウンロード済み(50.14 KB/秒)
+Mon Jul 29, 2019 23:46:29: ロードされたデバッギー: C:\kaihatsu\toYou\hs\firmware\nRF52 SDK\SDK14.2.0\project\hs\hs\pca10040e\s112\iar\_build\ble_app_template_pca10040e_s112.out
+Mon Jul 29, 2019 23:46:29: Reset: Halt core after reset via DEMCR.VC_CORERESET.
+Mon Jul 29, 2019 23:46:29: Reset: Reset device via AIRCR.SYSRESETREQ.
+Mon Jul 29, 2019 23:46:29: 方法0によるハードウェアリセットが実行されました
+Mon Jul 29, 2019 23:46:29: ターゲットリセット
+Mon Jul 29, 2019 23:46:37: ヒットしたブレークポイント: コード @ main.c:623.4、タイプ:デフォルト(自動) 
+Mon Jul 29, 2019 23:47:20: ヒットしたブレークポイント: コード @ main.c:615.2、タイプ:デフォルト(自動) 
+
+
+ << ファイルへのロギングを再開します >> 
+
+Mon Jul 29, 2019 23:48:21: JLINKコマンド:ProjectFile = C:\kaihatsu\toYou\hs\firmware\nRF52 SDK\SDK14.2.0\project\hs\hs\pca10040e\s112\iar\settings\ble_app_template_pca10040e_s112_nrf52810_xxaa.jlink、リターン値 = 0
+
+Mon Jul 29, 2019 23:48:21: Device "NRF52810_XXAA" selected.
+Mon Jul 29, 2019 23:48:21: DLLバージョン:V6.44a、Mar  8 2019 17:31:48がコンパイルされました
+
+Mon Jul 29, 2019 23:48:21: ファームウェア:J-Link V10 compiled Mar  7 2019 15:19:19
+
+Mon Jul 29, 2019 23:48:21: 現在のターゲットインタフェースとしてSWDを選択しています。
+
+Mon Jul 29, 2019 23:48:21: JTAG速度の初期値:は1000 kHzです
+Mon Jul 29, 2019 23:48:21: Found SW-DP with ID 0x2BA01477
+Mon Jul 29, 2019 23:48:21: Found SW-DP with ID 0x2BA01477
+Mon Jul 29, 2019 23:48:21: Scanning AP map to find all available APs
+Mon Jul 29, 2019 23:48:21: AP[2]: Stopped AP scan as end of AP map has been reached
+Mon Jul 29, 2019 23:48:21: AP[0]: AHB-AP (IDR: 0x24770011)
+Mon Jul 29, 2019 23:48:21: AP[1]: JTAG-AP (IDR: 0x02880000)
+Mon Jul 29, 2019 23:48:21: Iterating through AP map to find AHB-AP to use
+Mon Jul 29, 2019 23:48:21: AP[0]: Core found
+Mon Jul 29, 2019 23:48:21: AP[0]: AHB-AP ROM base: 0xE00FF000
+Mon Jul 29, 2019 23:48:21: CPUID register: 0x410FC241. Implementer code: 0x41 (ARM)
+Mon Jul 29, 2019 23:48:21: Found Cortex-M4 r0p1, Little endian.
+Mon Jul 29, 2019 23:48:21: FPUnit: 6 code (BP) slots and 2 literal slots
+Mon Jul 29, 2019 23:48:21: CoreSight components:
+Mon Jul 29, 2019 23:48:21: ROMTbl[0] @ E00FF000
+Mon Jul 29, 2019 23:48:21: ROMTbl[0][0]: E000E000, CID: B105E00D, PID: 000BB000 SCS
+Mon Jul 29, 2019 23:48:21: ROMTbl[0][1]: E0001000, CID: B105E00D, PID: 003BB002 DWT
+Mon Jul 29, 2019 23:48:21: ROMTbl[0][2]: E0002000, CID: B105E00D, PID: 002BB003 FPB
+Mon Jul 29, 2019 23:48:21: Reset: Halt core after reset via DEMCR.VC_CORERESET.
+Mon Jul 29, 2019 23:48:21: Reset: Reset device via AIRCR.SYSRESETREQ.
+Mon Jul 29, 2019 23:48:21: 方法0によるハードウェアリセットが実行されました
+Mon Jul 29, 2019 23:48:21: 初期リセットが実行されました
+Mon Jul 29, 2019 23:48:22: J-Link: Flash download: Bank 0 @ 0x00000000: 1 range affected (4096 bytes)
+Mon Jul 29, 2019 23:48:22: J-Link: Flash download: Total time needed: 0.205s (Prepare: 0.028s, Compare: 0.037s, Erase: 0.084s, Program: 0.050s, Verify: 0.000s, Restore: 0.004s)
+Mon Jul 29, 2019 23:48:22: 44153 バイトがダウンロード済み(49.28 KB/秒)
+Mon Jul 29, 2019 23:48:22: ロードされたデバッギー: C:\kaihatsu\toYou\hs\firmware\nRF52 SDK\SDK14.2.0\project\hs\hs\pca10040e\s112\iar\_build\ble_app_template_pca10040e_s112.out
+Mon Jul 29, 2019 23:48:22: Reset: Halt core after reset via DEMCR.VC_CORERESET.
+Mon Jul 29, 2019 23:48:22: Reset: Reset device via AIRCR.SYSRESETREQ.
+Mon Jul 29, 2019 23:48:22: 方法0によるハードウェアリセットが実行されました
+Mon Jul 29, 2019 23:48:22: ターゲットリセット
+Mon Jul 29, 2019 23:48:31: ヒットしたブレークポイント: コード @ main.c:615.2、タイプ:デフォルト(自動) 
+Mon Jul 29, 2019 23:48:35: ヒットしたブレークポイント: コード @ main.c:623.4、タイプ:デフォルト(自動) 
+Mon Jul 29, 2019 23:49:06: ヒットしたブレークポイント: コード @ main.c:615.2、タイプ:デフォルト(自動) 
+
+
+ << ファイルへのロギングを再開します >> 
+
+Mon Jul 29, 2019 23:50:33: JLINKコマンド:ProjectFile = C:\kaihatsu\toYou\hs\firmware\nRF52 SDK\SDK14.2.0\project\hs\hs\pca10040e\s112\iar\settings\ble_app_template_pca10040e_s112_nrf52810_xxaa.jlink、リターン値 = 0
+
+Mon Jul 29, 2019 23:50:33: Device "NRF52810_XXAA" selected.
+Mon Jul 29, 2019 23:50:33: DLLバージョン:V6.44a、Mar  8 2019 17:31:48がコンパイルされました
+
+Mon Jul 29, 2019 23:50:33: ファームウェア:J-Link V10 compiled Mar  7 2019 15:19:19
+
+Mon Jul 29, 2019 23:50:33: 現在のターゲットインタフェースとしてSWDを選択しています。
+
+Mon Jul 29, 2019 23:50:33: JTAG速度の初期値:は1000 kHzです
+Mon Jul 29, 2019 23:50:33: Found SW-DP with ID 0x2BA01477
+Mon Jul 29, 2019 23:50:33: Found SW-DP with ID 0x2BA01477
+Mon Jul 29, 2019 23:50:33: Scanning AP map to find all available APs
+Mon Jul 29, 2019 23:50:33: AP[2]: Stopped AP scan as end of AP map has been reached
+Mon Jul 29, 2019 23:50:33: AP[0]: AHB-AP (IDR: 0x24770011)
+Mon Jul 29, 2019 23:50:33: AP[1]: JTAG-AP (IDR: 0x02880000)
+Mon Jul 29, 2019 23:50:33: Iterating through AP map to find AHB-AP to use
+Mon Jul 29, 2019 23:50:33: AP[0]: Core found
+Mon Jul 29, 2019 23:50:33: AP[0]: AHB-AP ROM base: 0xE00FF000
+Mon Jul 29, 2019 23:50:33: CPUID register: 0x410FC241. Implementer code: 0x41 (ARM)
+Mon Jul 29, 2019 23:50:33: Found Cortex-M4 r0p1, Little endian.
+Mon Jul 29, 2019 23:50:33: FPUnit: 6 code (BP) slots and 2 literal slots
+Mon Jul 29, 2019 23:50:33: CoreSight components:
+Mon Jul 29, 2019 23:50:33: ROMTbl[0] @ E00FF000
+Mon Jul 29, 2019 23:50:33: ROMTbl[0][0]: E000E000, CID: B105E00D, PID: 000BB000 SCS
+Mon Jul 29, 2019 23:50:33: ROMTbl[0][1]: E0001000, CID: B105E00D, PID: 003BB002 DWT
+Mon Jul 29, 2019 23:50:33: ROMTbl[0][2]: E0002000, CID: B105E00D, PID: 002BB003 FPB
+Mon Jul 29, 2019 23:50:33: Reset: Halt core after reset via DEMCR.VC_CORERESET.
+Mon Jul 29, 2019 23:50:33: Reset: Reset device via AIRCR.SYSRESETREQ.
+Mon Jul 29, 2019 23:50:33: 方法0によるハードウェアリセットが実行されました
+Mon Jul 29, 2019 23:50:33: 初期リセットが実行されました
+Mon Jul 29, 2019 23:50:36: J-Link: Flash download: Bank 0 @ 0x00000000: 1 range affected (45056 bytes)
+Mon Jul 29, 2019 23:50:36: J-Link: Flash download: Total time needed: 1.432s (Prepare: 0.029s, Compare: 0.006s, Erase: 0.913s, Program: 0.476s, Verify: 0.001s, Restore: 0.004s)
+Mon Jul 29, 2019 23:50:36: 44149 バイトがダウンロード済み(19.56 KB/秒)
+Mon Jul 29, 2019 23:50:36: ロードされたデバッギー: C:\kaihatsu\toYou\hs\firmware\nRF52 SDK\SDK14.2.0\project\hs\hs\pca10040e\s112\iar\_build\ble_app_template_pca10040e_s112.out
+Mon Jul 29, 2019 23:50:36: Reset: Halt core after reset via DEMCR.VC_CORERESET.
+Mon Jul 29, 2019 23:50:36: Reset: Reset device via AIRCR.SYSRESETREQ.
+Mon Jul 29, 2019 23:50:36: 方法0によるハードウェアリセットが実行されました
+Mon Jul 29, 2019 23:50:36: ターゲットリセット
+Mon Jul 29, 2019 23:50:44: ヒットしたブレークポイント: コード @ main.c:615.2、タイプ:デフォルト(自動) 
+Mon Jul 29, 2019 23:50:47: ヒットしたブレークポイント: コード @ main.c:623.4、タイプ:デフォルト(自動) 
+Mon Jul 29, 2019 23:51:48: ヒットしたブレークポイント: コード @ main.c:623.4、タイプ:デフォルト(自動) 
+Mon Jul 29, 2019 23:52:31: ヒットしたブレークポイント: コード @ main.c:623.4、タイプ:デフォルト(自動) 
+Mon Jul 29, 2019 23:54:07: ヒットしたブレークポイント: コード @ main.c:623.4、タイプ:デフォルト(自動) 
+Mon Jul 29, 2019 23:54:45: ヒットしたブレークポイント: コード @ main.c:623.4、タイプ:デフォルト(自動) 
+Mon Jul 29, 2019 23:55:22: ヒットしたブレークポイント: コード @ main.c:623.4、タイプ:デフォルト(自動) 
+Mon Jul 29, 2019 23:58:56: ヒットしたブレークポイント: コード @ main.c:623.4、タイプ:デフォルト(自動) 
+Tue Jul 30, 2019 00:25:28: ヒットしたブレークポイント: コード @ nrf_power.h:889.5、タイプ:デフォルト(自動) 
+
+
+ << ファイルへのロギングを再開します >> 
+
+Tue Jul 30, 2019 11:17:45: JLINKコマンド:ProjectFile = C:\kaihatsu\toYou\hs\firmware\nRF52 SDK\SDK14.2.0\project\hs\hs\pca10040e\s112\iar\settings\ble_app_template_pca10040e_s112_nrf52810_xxaa.jlink、リターン値 = 0
+
+Tue Jul 30, 2019 11:17:45: Device "NRF52810_XXAA" selected.
+Tue Jul 30, 2019 11:17:45: DLLバージョン:V6.44a、Mar  8 2019 17:31:48がコンパイルされました
+
+Tue Jul 30, 2019 11:17:45: ファームウェア:J-Link V10 compiled Mar  7 2019 15:19:19
+
+Tue Jul 30, 2019 11:17:45: 現在のターゲットインタフェースとしてSWDを選択しています。
+
+Tue Jul 30, 2019 11:17:45: JTAG速度の初期値:は1000 kHzです
+Tue Jul 30, 2019 11:17:45: Found SW-DP with ID 0x2BA01477
+Tue Jul 30, 2019 11:17:45: Found SW-DP with ID 0x2BA01477
+Tue Jul 30, 2019 11:17:45: Scanning AP map to find all available APs
+Tue Jul 30, 2019 11:17:45: AP[2]: Stopped AP scan as end of AP map has been reached
+Tue Jul 30, 2019 11:17:45: AP[0]: AHB-AP (IDR: 0x24770011)
+Tue Jul 30, 2019 11:17:45: AP[1]: JTAG-AP (IDR: 0x02880000)
+Tue Jul 30, 2019 11:17:45: Iterating through AP map to find AHB-AP to use
+Tue Jul 30, 2019 11:17:45: AP[0]: Core found
+Tue Jul 30, 2019 11:17:45: AP[0]: AHB-AP ROM base: 0xE00FF000
+Tue Jul 30, 2019 11:17:45: CPUID register: 0x410FC241. Implementer code: 0x41 (ARM)
+Tue Jul 30, 2019 11:17:45: Found Cortex-M4 r0p1, Little endian.
+Tue Jul 30, 2019 11:17:45: FPUnit: 6 code (BP) slots and 2 literal slots
+Tue Jul 30, 2019 11:17:45: CoreSight components:
+Tue Jul 30, 2019 11:17:45: ROMTbl[0] @ E00FF000
+Tue Jul 30, 2019 11:17:45: ROMTbl[0][0]: E000E000, CID: B105E00D, PID: 000BB000 SCS
+Tue Jul 30, 2019 11:17:45: ROMTbl[0][1]: E0001000, CID: B105E00D, PID: 003BB002 DWT
+Tue Jul 30, 2019 11:17:45: ROMTbl[0][2]: E0002000, CID: B105E00D, PID: 002BB003 FPB
+Tue Jul 30, 2019 11:17:45: Reset: Halt core after reset via DEMCR.VC_CORERESET.
+Tue Jul 30, 2019 11:17:45: Reset: Reset device via AIRCR.SYSRESETREQ.
+Tue Jul 30, 2019 11:17:45: 方法0によるハードウェアリセットが実行されました
+Tue Jul 30, 2019 11:17:45: 初期リセットが実行されました
+Tue Jul 30, 2019 11:17:47: J-Link: Flash download: Bank 0 @ 0x00000000: 1 range affected (45056 bytes)
+Tue Jul 30, 2019 11:17:47: J-Link: Flash download: Total time needed: 1.429s (Prepare: 0.027s, Compare: 0.006s, Erase: 0.913s, Program: 0.476s, Verify: 0.001s, Restore: 0.004s)
+Tue Jul 30, 2019 11:17:47: 44205 バイトがダウンロード済み(20.62 KB/秒)
+Tue Jul 30, 2019 11:17:47: ロードされたデバッギー: C:\kaihatsu\toYou\hs\firmware\nRF52 SDK\SDK14.2.0\project\hs\hs\pca10040e\s112\iar\_build\ble_app_template_pca10040e_s112.out
+Tue Jul 30, 2019 11:17:47: Reset: Halt core after reset via DEMCR.VC_CORERESET.
+Tue Jul 30, 2019 11:17:47: Reset: Reset device via AIRCR.SYSRESETREQ.
+Tue Jul 30, 2019 11:17:48: 方法0によるハードウェアリセットが実行されました
+Tue Jul 30, 2019 11:17:48: ターゲットリセット
+Tue Jul 30, 2019 11:18:51: ヒットしたブレークポイント: コード @ main.c:291.2、タイプ:デフォルト(自動) 
+Tue Jul 30, 2019 11:19:19: ヒットしたブレークポイント: コード @ main.c:508.15、タイプ:デフォルト(自動) 
+Tue Jul 30, 2019 11:19:27: ヒットしたブレークポイント: コード @ app_error_weak.c:63.5、タイプ:デフォルト(自動) 
+Tue Jul 30, 2019 11:19:27: HardFault exception.
+The processor has escalated a configurable-priority exception to HardFault.
+
+Exception occured at PC = 0xffffffff, LR = 0x0
+
+See the call stack for more information.
+
+Tue Jul 30, 2019 11:19:28: HardFault exception.
+The processor has escalated a configurable-priority exception to HardFault.
+
+Exception occured at PC = 0xffffffff, LR = 0x0
+
+See the call stack for more information.
+
+
+
+ << ファイルへのロギングを再開します >> 
+
+Tue Jul 30, 2019 11:20:05: JLINKコマンド:ProjectFile = C:\kaihatsu\toYou\hs\firmware\nRF52 SDK\SDK14.2.0\project\hs\hs\pca10040e\s112\iar\settings\ble_app_template_pca10040e_s112_nrf52810_xxaa.jlink、リターン値 = 0
+
+Tue Jul 30, 2019 11:20:05: Device "NRF52810_XXAA" selected.
+Tue Jul 30, 2019 11:20:05: DLLバージョン:V6.44a、Mar  8 2019 17:31:48がコンパイルされました
+
+Tue Jul 30, 2019 11:20:05: ファームウェア:J-Link V10 compiled Mar  7 2019 15:19:19
+
+Tue Jul 30, 2019 11:20:05: 現在のターゲットインタフェースとしてSWDを選択しています。
+
+Tue Jul 30, 2019 11:20:05: JTAG速度の初期値:は1000 kHzです
+Tue Jul 30, 2019 11:20:05: Found SW-DP with ID 0x2BA01477
+Tue Jul 30, 2019 11:20:05: Found SW-DP with ID 0x2BA01477
+Tue Jul 30, 2019 11:20:05: Scanning AP map to find all available APs
+Tue Jul 30, 2019 11:20:05: AP[2]: Stopped AP scan as end of AP map has been reached
+Tue Jul 30, 2019 11:20:05: AP[0]: AHB-AP (IDR: 0x24770011)
+Tue Jul 30, 2019 11:20:05: AP[1]: JTAG-AP (IDR: 0x02880000)
+Tue Jul 30, 2019 11:20:05: Iterating through AP map to find AHB-AP to use
+Tue Jul 30, 2019 11:20:05: AP[0]: Core found
+Tue Jul 30, 2019 11:20:05: AP[0]: AHB-AP ROM base: 0xE00FF000
+Tue Jul 30, 2019 11:20:05: CPUID register: 0x410FC241. Implementer code: 0x41 (ARM)
+Tue Jul 30, 2019 11:20:05: Found Cortex-M4 r0p1, Little endian.
+Tue Jul 30, 2019 11:20:06: FPUnit: 6 code (BP) slots and 2 literal slots
+Tue Jul 30, 2019 11:20:06: CoreSight components:
+Tue Jul 30, 2019 11:20:06: ROMTbl[0] @ E00FF000
+Tue Jul 30, 2019 11:20:06: ROMTbl[0][0]: E000E000, CID: B105E00D, PID: 000BB000 SCS
+Tue Jul 30, 2019 11:20:06: ROMTbl[0][1]: E0001000, CID: B105E00D, PID: 003BB002 DWT
+Tue Jul 30, 2019 11:20:06: ROMTbl[0][2]: E0002000, CID: B105E00D, PID: 002BB003 FPB
+Tue Jul 30, 2019 11:20:06: Reset: Halt core after reset via DEMCR.VC_CORERESET.
+Tue Jul 30, 2019 11:20:06: Reset: Reset device via AIRCR.SYSRESETREQ.
+Tue Jul 30, 2019 11:20:06: 方法0によるハードウェアリセットが実行されました
+Tue Jul 30, 2019 11:20:06: 初期リセットが実行されました
+Tue Jul 30, 2019 11:20:06: ダウンロードについて0バイトが抑制されました
+Tue Jul 30, 2019 11:20:06: ロードされたデバッギー: C:\kaihatsu\toYou\hs\firmware\nRF52 SDK\SDK14.2.0\project\hs\hs\pca10040e\s112\iar\_build\ble_app_template_pca10040e_s112.out
+Tue Jul 30, 2019 11:20:06: Reset: Halt core after reset via DEMCR.VC_CORERESET.
+Tue Jul 30, 2019 11:20:06: Reset: Reset device via AIRCR.SYSRESETREQ.
+Tue Jul 30, 2019 11:20:07: 方法0によるハードウェアリセットが実行されました
+Tue Jul 30, 2019 11:20:07: ターゲットリセット
+Tue Jul 30, 2019 11:20:11: ヒットしたブレークポイント: コード @ main.c:291.2、タイプ:デフォルト(自動) 
+Tue Jul 30, 2019 11:20:17: ヒットしたブレークポイント: コード @ main.c:508.15、タイプ:デフォルト(自動) 
+
+
+ << ファイルへのロギングを再開します >> 
+
+Tue Jul 30, 2019 11:28:01: JLINKコマンド:ProjectFile = C:\kaihatsu\toYou\hs\firmware\nRF52 SDK\SDK14.2.0\project\hs\hs\pca10040e\s112\iar\settings\ble_app_template_pca10040e_s112_nrf52810_xxaa.jlink、リターン値 = 0
+
+Tue Jul 30, 2019 11:28:01: Device "NRF52810_XXAA" selected.
+Tue Jul 30, 2019 11:28:01: DLLバージョン:V6.44a、Mar  8 2019 17:31:48がコンパイルされました
+
+Tue Jul 30, 2019 11:28:01: ファームウェア:J-Link V10 compiled Mar  7 2019 15:19:19
+
+Tue Jul 30, 2019 11:28:01: 現在のターゲットインタフェースとしてSWDを選択しています。
+
+Tue Jul 30, 2019 11:28:01: JTAG速度の初期値:は1000 kHzです
+Tue Jul 30, 2019 11:28:01: Found SW-DP with ID 0x2BA01477
+Tue Jul 30, 2019 11:28:01: Found SW-DP with ID 0x2BA01477
+Tue Jul 30, 2019 11:28:01: Scanning AP map to find all available APs
+Tue Jul 30, 2019 11:28:01: AP[2]: Stopped AP scan as end of AP map has been reached
+Tue Jul 30, 2019 11:28:01: AP[0]: AHB-AP (IDR: 0x24770011)
+Tue Jul 30, 2019 11:28:01: AP[1]: JTAG-AP (IDR: 0x02880000)
+Tue Jul 30, 2019 11:28:01: Iterating through AP map to find AHB-AP to use
+Tue Jul 30, 2019 11:28:01: AP[0]: Core found
+Tue Jul 30, 2019 11:28:01: AP[0]: AHB-AP ROM base: 0xE00FF000
+Tue Jul 30, 2019 11:28:01: CPUID register: 0x410FC241. Implementer code: 0x41 (ARM)
+Tue Jul 30, 2019 11:28:01: Found Cortex-M4 r0p1, Little endian.
+Tue Jul 30, 2019 11:28:01: FPUnit: 6 code (BP) slots and 2 literal slots
+Tue Jul 30, 2019 11:28:01: CoreSight components:
+Tue Jul 30, 2019 11:28:01: ROMTbl[0] @ E00FF000
+Tue Jul 30, 2019 11:28:01: ROMTbl[0][0]: E000E000, CID: B105E00D, PID: 000BB000 SCS
+Tue Jul 30, 2019 11:28:01: ROMTbl[0][1]: E0001000, CID: B105E00D, PID: 003BB002 DWT
+Tue Jul 30, 2019 11:28:01: ROMTbl[0][2]: E0002000, CID: B105E00D, PID: 002BB003 FPB
+Tue Jul 30, 2019 11:28:01: Reset: Halt core after reset via DEMCR.VC_CORERESET.
+Tue Jul 30, 2019 11:28:01: Reset: Reset device via AIRCR.SYSRESETREQ.
+Tue Jul 30, 2019 11:28:01: 方法0によるハードウェアリセットが実行されました
+Tue Jul 30, 2019 11:28:01: 初期リセットが実行されました
+Tue Jul 30, 2019 11:28:02: J-Link: Flash download: Bank 0 @ 0x00000000: 1 range affected (4096 bytes)
+Tue Jul 30, 2019 11:28:02: J-Link: Flash download: Total time needed: 0.211s (Prepare: 0.033s, Compare: 0.036s, Erase: 0.084s, Program: 0.050s, Verify: 0.000s, Restore: 0.005s)
+Tue Jul 30, 2019 11:28:02: 44205 バイトがダウンロード済み(49.34 KB/秒)
+Tue Jul 30, 2019 11:28:02: ロードされたデバッギー: C:\kaihatsu\toYou\hs\firmware\nRF52 SDK\SDK14.2.0\project\hs\hs\pca10040e\s112\iar\_build\ble_app_template_pca10040e_s112.out
+Tue Jul 30, 2019 11:28:02: Reset: Halt core after reset via DEMCR.VC_CORERESET.
+Tue Jul 30, 2019 11:28:02: Reset: Reset device via AIRCR.SYSRESETREQ.
+Tue Jul 30, 2019 11:28:02: 方法0によるハードウェアリセットが実行されました
+Tue Jul 30, 2019 11:28:02: ターゲットリセット
+Tue Jul 30, 2019 11:28:08: ヒットしたブレークポイント: コード @ main.c:291.2、タイプ:デフォルト(自動) 
+Tue Jul 30, 2019 11:28:11: ヒットしたブレークポイント: コード @ main.c:508.15、タイプ:デフォルト(自動) 
+Tue Jul 30, 2019 11:28:22: ヒットしたブレークポイント: コード @ app_error_weak.c:63.5、タイプ:デフォルト(自動) 
+Tue Jul 30, 2019 11:28:22: HardFault exception.
+The processor has escalated a configurable-priority exception to HardFault.
+
+Exception occured at PC = 0xffffffff, LR = 0x0
+
+See the call stack for more information.
+
+
+
+ << ファイルへのロギングを再開します >> 
+
+Tue Jul 30, 2019 14:06:21: JLINKコマンド:ProjectFile = C:\kaihatsu\toYou\hs\firmware\nRF52 SDK\SDK14.2.0\project\hs\hs\pca10040e\s112\iar\settings\ble_app_template_pca10040e_s112_nrf52810_xxaa.jlink、リターン値 = 0
+
+Tue Jul 30, 2019 14:06:21: Device "NRF52810_XXAA" selected.
+Tue Jul 30, 2019 14:06:21: DLLバージョン:V6.44a、Mar  8 2019 17:31:48がコンパイルされました
+
+Tue Jul 30, 2019 14:06:21: ファームウェア:J-Link V10 compiled Mar  7 2019 15:19:19
+
+Tue Jul 30, 2019 14:06:21: 現在のターゲットインタフェースとしてSWDを選択しています。
+
+Tue Jul 30, 2019 14:06:21: JTAG速度の初期値:は1000 kHzです
+Tue Jul 30, 2019 14:06:21: 方法0によるハードウェアリセットが実行されました
+Tue Jul 30, 2019 14:06:21: 初期リセットが実行されました
+Tue Jul 30, 2019 14:06:38: Found SW-DP with ID 0x2BA01477
+Tue Jul 30, 2019 14:06:38: Found SW-DP with ID 0x2BA01477
+Tue Jul 30, 2019 14:06:38: Scanning AP map to find all available APs
+Tue Jul 30, 2019 14:06:38: AP[2]: Stopped AP scan as end of AP map has been reached
+Tue Jul 30, 2019 14:06:38: AP[0]: AHB-AP (IDR: 0x24770011)
+Tue Jul 30, 2019 14:06:38: AP[1]: JTAG-AP (IDR: 0x02880000)
+Tue Jul 30, 2019 14:06:38: Iterating through AP map to find AHB-AP to use
+Tue Jul 30, 2019 14:06:38: AP[0]: Core found
+Tue Jul 30, 2019 14:06:38: AP[0]: AHB-AP ROM base: 0xE00FF000
+Tue Jul 30, 2019 14:06:38: CPUID register: 0x410FC241. Implementer code: 0x41 (ARM)
+Tue Jul 30, 2019 14:06:38: Found Cortex-M4 r0p1, Little endian.
+Tue Jul 30, 2019 14:06:38: FPUnit: 6 code (BP) slots and 2 literal slots
+Tue Jul 30, 2019 14:06:38: CoreSight components:
+Tue Jul 30, 2019 14:06:38: ROMTbl[0] @ E00FF000
+Tue Jul 30, 2019 14:06:38: ROMTbl[0][0]: E000E000, CID: B105E00D, PID: 000BB000 SCS
+Tue Jul 30, 2019 14:06:38: ROMTbl[0][1]: E0001000, CID: B105E00D, PID: 003BB002 DWT
+Tue Jul 30, 2019 14:06:38: ROMTbl[0][2]: E0002000, CID: B105E00D, PID: 002BB003 FPB
+Tue Jul 30, 2019 14:06:38: Reset: Halt core after reset via DEMCR.VC_CORERESET.
+Tue Jul 30, 2019 14:06:38: Reset: Reset device via AIRCR.SYSRESETREQ.
+Tue Jul 30, 2019 14:06:38: 方法0によるハードウェアリセットが実行されました
+Tue Jul 30, 2019 14:06:38: 初期リセットが実行されました
+Tue Jul 30, 2019 14:06:40: J-Link: Flash download: Bank 0 @ 0x00000000: 1 range affected (45056 bytes)
+Tue Jul 30, 2019 14:06:40: J-Link: Flash download: Total time needed: 1.413s (Prepare: 0.028s, Compare: 0.004s, Erase: 0.902s, Program: 0.471s, Verify: 0.002s, Restore: 0.004s)
+Tue Jul 30, 2019 14:06:40: 44205 バイトがダウンロード済み(20.47 KB/秒)
+Tue Jul 30, 2019 14:06:40: ロードされたデバッギー: C:\kaihatsu\toYou\hs\firmware\nRF52 SDK\SDK14.2.0\project\hs\hs\pca10040e\s112\iar\_build\ble_app_template_pca10040e_s112.out
+Tue Jul 30, 2019 14:06:40: Reset: Halt core after reset via DEMCR.VC_CORERESET.
+Tue Jul 30, 2019 14:06:40: Reset: Reset device via AIRCR.SYSRESETREQ.
+Tue Jul 30, 2019 14:06:40: 方法0によるハードウェアリセットが実行されました
+Tue Jul 30, 2019 14:06:40: ターゲットリセット
+Tue Jul 30, 2019 14:16:29: ヒットしたブレークポイント: コード @ main.c:291.2、タイプ:デフォルト(自動) 
+Tue Jul 30, 2019 14:16:41: ヒットしたブレークポイント: コード @ main.c:508.15、タイプ:デフォルト(自動) 
+Tue Jul 30, 2019 14:16:48: ヒットしたブレークポイント: コード @ main.c:508.15、タイプ:デフォルト(自動) 
+Tue Jul 30, 2019 14:16:56: ヒットしたブレークポイント: コード @ main.c:508.15、タイプ:デフォルト(自動) 
+Tue Jul 30, 2019 14:17:05: ヒットしたブレークポイント: コード @ app_error_weak.c:63.5、タイプ:デフォルト(自動) 
+Tue Jul 30, 2019 14:17:05: HardFault exception.
+The processor has escalated a configurable-priority exception to HardFault.
+
+Exception occured at PC = 0xffffffff, LR = 0x0
+
+See the call stack for more information.
+
+
+
+ << ファイルへのロギングを再開します >> 
+
+Mon Aug 05, 2019 13:30:04: JLINKコマンド:ProjectFile = C:\kaihatsu\toYou\hs\firmware\nRF52 SDK\SDK14.2.0\project\hs\hs\pca10040e\s112\iar\settings\ble_app_template_pca10040e_s112_nrf52810_xxaa.jlink、リターン値 = 0
+
+Mon Aug 05, 2019 13:30:04: Device "NRF52810_XXAA" selected.
+Mon Aug 05, 2019 13:30:04: DLLバージョン:V6.44a、Mar  8 2019 17:31:48がコンパイルされました
+
+Mon Aug 05, 2019 13:30:04: ファームウェア:J-Link V10 compiled Mar  7 2019 15:19:19
+
+Mon Aug 05, 2019 13:30:04: 現在のターゲットインタフェースとしてSWDを選択しています。
+
+Mon Aug 05, 2019 13:30:04: JTAG速度の初期値:は1000 kHzです
+Mon Aug 05, 2019 13:30:04: Found SW-DP with ID 0x2BA01477
+Mon Aug 05, 2019 13:30:04: Found SW-DP with ID 0x2BA01477
+Mon Aug 05, 2019 13:30:04: Scanning AP map to find all available APs
+Mon Aug 05, 2019 13:30:04: AP[2]: Stopped AP scan as end of AP map has been reached
+Mon Aug 05, 2019 13:30:04: AP[0]: AHB-AP (IDR: 0x24770011)
+Mon Aug 05, 2019 13:30:04: AP[1]: JTAG-AP (IDR: 0x02880000)
+Mon Aug 05, 2019 13:30:04: Iterating through AP map to find AHB-AP to use
+Mon Aug 05, 2019 13:30:04: AP[0]: Core found
+Mon Aug 05, 2019 13:30:04: AP[0]: AHB-AP ROM base: 0xE00FF000
+Mon Aug 05, 2019 13:30:04: CPUID register: 0x410FC241. Implementer code: 0x41 (ARM)
+Mon Aug 05, 2019 13:30:04: Found Cortex-M4 r0p1, Little endian.
+Mon Aug 05, 2019 13:30:04: FPUnit: 6 code (BP) slots and 2 literal slots
+Mon Aug 05, 2019 13:30:04: CoreSight components:
+Mon Aug 05, 2019 13:30:04: ROMTbl[0] @ E00FF000
+Mon Aug 05, 2019 13:30:04: ROMTbl[0][0]: E000E000, CID: B105E00D, PID: 000BB000 SCS
+Mon Aug 05, 2019 13:30:04: ROMTbl[0][1]: E0001000, CID: B105E00D, PID: 003BB002 DWT
+Mon Aug 05, 2019 13:30:04: ROMTbl[0][2]: E0002000, CID: B105E00D, PID: 002BB003 FPB
+Mon Aug 05, 2019 13:30:04: Reset: Halt core after reset via DEMCR.VC_CORERESET.
+Mon Aug 05, 2019 13:30:04: Reset: Reset device via AIRCR.SYSRESETREQ.
+Mon Aug 05, 2019 13:30:05: 方法0によるハードウェアリセットが実行されました
+Mon Aug 05, 2019 13:30:05: 初期リセットが実行されました
+Mon Aug 05, 2019 13:30:07: J-Link: Flash download: Bank 0 @ 0x00000000: 1 range affected (45056 bytes)
+Mon Aug 05, 2019 13:30:07: J-Link: Flash download: Total time needed: 1.419s (Prepare: 0.027s, Compare: 0.004s, Erase: 0.907s, Program: 0.473s, Verify: 0.000s, Restore: 0.005s)
+Mon Aug 05, 2019 13:30:07: 44205 バイトがダウンロード済み(20.94 KB/秒)
+Mon Aug 05, 2019 13:30:07: ロードされたデバッギー: C:\kaihatsu\toYou\hs\firmware\nRF52 SDK\SDK14.2.0\project\hs\hs\pca10040e\s112\iar\_build\ble_app_template_pca10040e_s112.out
+Mon Aug 05, 2019 13:30:07: Reset: Halt core after reset via DEMCR.VC_CORERESET.
+Mon Aug 05, 2019 13:30:07: Reset: Reset device via AIRCR.SYSRESETREQ.
+Mon Aug 05, 2019 13:30:07: 方法0によるハードウェアリセットが実行されました
+Mon Aug 05, 2019 13:30:07: ターゲットリセット
+
+
+ << ファイルへのロギングを再開します >> 
+
+Mon Aug 05, 2019 13:30:59: JLINKコマンド:ProjectFile = C:\kaihatsu\toYou\hs\firmware\nRF52 SDK\SDK14.2.0\project\hs\hs\pca10040e\s112\iar\settings\ble_app_template_pca10040e_s112_nrf52810_xxaa.jlink、リターン値 = 0
+
+Mon Aug 05, 2019 13:30:59: Device "NRF52810_XXAA" selected.
+Mon Aug 05, 2019 13:30:59: DLLバージョン:V6.44a、Mar  8 2019 17:31:48がコンパイルされました
+
+Mon Aug 05, 2019 13:30:59: ファームウェア:J-Link V10 compiled Mar  7 2019 15:19:19
+
+Mon Aug 05, 2019 13:30:59: 現在のターゲットインタフェースとしてSWDを選択しています。
+
+Mon Aug 05, 2019 13:30:59: JTAG速度の初期値:は1000 kHzです
+Mon Aug 05, 2019 13:30:59: Found SW-DP with ID 0x2BA01477
+Mon Aug 05, 2019 13:30:59: Found SW-DP with ID 0x2BA01477
+Mon Aug 05, 2019 13:30:59: Scanning AP map to find all available APs
+Mon Aug 05, 2019 13:30:59: AP[2]: Stopped AP scan as end of AP map has been reached
+Mon Aug 05, 2019 13:30:59: AP[0]: AHB-AP (IDR: 0x24770011)
+Mon Aug 05, 2019 13:30:59: AP[1]: JTAG-AP (IDR: 0x02880000)
+Mon Aug 05, 2019 13:30:59: Iterating through AP map to find AHB-AP to use
+Mon Aug 05, 2019 13:30:59: AP[0]: Core found
+Mon Aug 05, 2019 13:30:59: AP[0]: AHB-AP ROM base: 0xE00FF000
+Mon Aug 05, 2019 13:30:59: CPUID register: 0x410FC241. Implementer code: 0x41 (ARM)
+Mon Aug 05, 2019 13:30:59: Found Cortex-M4 r0p1, Little endian.
+Mon Aug 05, 2019 13:30:59: FPUnit: 6 code (BP) slots and 2 literal slots
+Mon Aug 05, 2019 13:30:59: CoreSight components:
+Mon Aug 05, 2019 13:30:59: ROMTbl[0] @ E00FF000
+Mon Aug 05, 2019 13:30:59: ROMTbl[0][0]: E000E000, CID: B105E00D, PID: 000BB000 SCS
+Mon Aug 05, 2019 13:30:59: ROMTbl[0][1]: E0001000, CID: B105E00D, PID: 003BB002 DWT
+Mon Aug 05, 2019 13:30:59: ROMTbl[0][2]: E0002000, CID: B105E00D, PID: 002BB003 FPB
+Mon Aug 05, 2019 13:30:59: Reset: Halt core after reset via DEMCR.VC_CORERESET.
+Mon Aug 05, 2019 13:30:59: Reset: Reset device via AIRCR.SYSRESETREQ.
+Mon Aug 05, 2019 13:30:59: 方法0によるハードウェアリセットが実行されました
+Mon Aug 05, 2019 13:30:59: 初期リセットが実行されました
+Mon Aug 05, 2019 13:31:00: J-Link: Flash download: Bank 0 @ 0x00000000: Skipped. Contents already match
+Mon Aug 05, 2019 13:31:00: 44205 バイトがダウンロード済み(58.81 KB/秒)
+Mon Aug 05, 2019 13:31:00: ロードされたデバッギー: C:\kaihatsu\toYou\hs\firmware\nRF52 SDK\SDK14.2.0\project\hs\hs\pca10040e\s112\iar\_build\ble_app_template_pca10040e_s112.out
+Mon Aug 05, 2019 13:31:00: Reset: Halt core after reset via DEMCR.VC_CORERESET.
+Mon Aug 05, 2019 13:31:00: Reset: Reset device via AIRCR.SYSRESETREQ.
+Mon Aug 05, 2019 13:31:00: 方法0によるハードウェアリセットが実行されました
+Mon Aug 05, 2019 13:31:00: ターゲットリセット
+Mon Aug 05, 2019 13:32:08: ヒットしたブレークポイント: コード @ main.c:291.2、タイプ:デフォルト(自動) 
+Mon Aug 05, 2019 13:39:15: ヒットしたブレークポイント: コード @ nrf_power.h:889.5、タイプ:デフォルト(自動) 
+
+
+ << ファイルへのロギングを再開します >> 
+
+Mon Aug 05, 2019 13:40:56: JLINKコマンド:ProjectFile = C:\kaihatsu\toYou\hs\firmware\nRF52 SDK\SDK14.2.0\project\hs\hs\pca10040e\s112\iar\settings\ble_app_template_pca10040e_s112_nrf52810_xxaa.jlink、リターン値 = 0
+
+Mon Aug 05, 2019 13:40:56: Device "NRF52810_XXAA" selected.
+Mon Aug 05, 2019 13:40:56: DLLバージョン:V6.44a、Mar  8 2019 17:31:48がコンパイルされました
+
+Mon Aug 05, 2019 13:40:56: ファームウェア:J-Link V10 compiled Mar  7 2019 15:19:19
+
+Mon Aug 05, 2019 13:40:56: 現在のターゲットインタフェースとしてSWDを選択しています。
+
+Mon Aug 05, 2019 13:40:56: JTAG速度の初期値:は1000 kHzです
+Mon Aug 05, 2019 13:40:56: Found SW-DP with ID 0x2BA01477
+Mon Aug 05, 2019 13:40:56: Found SW-DP with ID 0x2BA01477
+Mon Aug 05, 2019 13:40:56: Scanning AP map to find all available APs
+Mon Aug 05, 2019 13:40:56: AP[2]: Stopped AP scan as end of AP map has been reached
+Mon Aug 05, 2019 13:40:56: AP[0]: AHB-AP (IDR: 0x24770011)
+Mon Aug 05, 2019 13:40:56: AP[1]: JTAG-AP (IDR: 0x02880000)
+Mon Aug 05, 2019 13:40:56: Iterating through AP map to find AHB-AP to use
+Mon Aug 05, 2019 13:40:56: AP[0]: Core found
+Mon Aug 05, 2019 13:40:56: AP[0]: AHB-AP ROM base: 0xE00FF000
+Mon Aug 05, 2019 13:40:56: CPUID register: 0x410FC241. Implementer code: 0x41 (ARM)
+Mon Aug 05, 2019 13:40:56: Found Cortex-M4 r0p1, Little endian.
+Mon Aug 05, 2019 13:40:56: FPUnit: 6 code (BP) slots and 2 literal slots
+Mon Aug 05, 2019 13:40:56: CoreSight components:
+Mon Aug 05, 2019 13:40:56: ROMTbl[0] @ E00FF000
+Mon Aug 05, 2019 13:40:56: ROMTbl[0][0]: E000E000, CID: B105E00D, PID: 000BB000 SCS
+Mon Aug 05, 2019 13:40:56: ROMTbl[0][1]: E0001000, CID: B105E00D, PID: 003BB002 DWT
+Mon Aug 05, 2019 13:40:56: ROMTbl[0][2]: E0002000, CID: B105E00D, PID: 002BB003 FPB
+Mon Aug 05, 2019 13:40:56: Reset: Halt core after reset via DEMCR.VC_CORERESET.
+Mon Aug 05, 2019 13:40:56: Reset: Reset device via AIRCR.SYSRESETREQ.
+Mon Aug 05, 2019 13:40:56: 方法0によるハードウェアリセットが実行されました
+Mon Aug 05, 2019 13:40:56: 初期リセットが実行されました
+Mon Aug 05, 2019 13:40:58: J-Link: Flash download: Bank 0 @ 0x00000000: 1 range affected (45056 bytes)
+Mon Aug 05, 2019 13:40:58: J-Link: Flash download: Total time needed: 1.422s (Prepare: 0.027s, Compare: 0.007s, Erase: 0.907s, Program: 0.473s, Verify: 0.001s, Restore: 0.004s)
+Mon Aug 05, 2019 13:40:58: 44217 バイトがダウンロード済み(20.62 KB/秒)
+Mon Aug 05, 2019 13:40:58: ロードされたデバッギー: C:\kaihatsu\toYou\hs\firmware\nRF52 SDK\SDK14.2.0\project\hs\hs\pca10040e\s112\iar\_build\ble_app_template_pca10040e_s112.out
+Mon Aug 05, 2019 13:40:58: Reset: Halt core after reset via DEMCR.VC_CORERESET.
+Mon Aug 05, 2019 13:40:58: Reset: Reset device via AIRCR.SYSRESETREQ.
+Mon Aug 05, 2019 13:40:59: 方法0によるハードウェアリセットが実行されました
+Mon Aug 05, 2019 13:40:59: ターゲットリセット
+
+
+ << ファイルへのロギングを再開します >> 
+
+Mon Aug 05, 2019 13:44:59: JLINKコマンド:ProjectFile = C:\kaihatsu\toYou\hs\firmware\nRF52 SDK\SDK14.2.0\project\hs\hs\pca10040e\s112\iar\settings\ble_app_template_pca10040e_s112_nrf52810_xxaa.jlink、リターン値 = 0
+
+Mon Aug 05, 2019 13:44:59: Device "NRF52810_XXAA" selected.
+Mon Aug 05, 2019 13:44:59: DLLバージョン:V6.44a、Mar  8 2019 17:31:48がコンパイルされました
+
+Mon Aug 05, 2019 13:44:59: ファームウェア:J-Link V10 compiled Mar  7 2019 15:19:19
+
+Mon Aug 05, 2019 13:44:59: 現在のターゲットインタフェースとしてSWDを選択しています。
+
+Mon Aug 05, 2019 13:44:59: JTAG速度の初期値:は1000 kHzです
+Mon Aug 05, 2019 13:44:59: Found SW-DP with ID 0x2BA01477
+Mon Aug 05, 2019 13:44:59: Found SW-DP with ID 0x2BA01477
+Mon Aug 05, 2019 13:44:59: Scanning AP map to find all available APs
+Mon Aug 05, 2019 13:44:59: AP[2]: Stopped AP scan as end of AP map has been reached
+Mon Aug 05, 2019 13:44:59: AP[0]: AHB-AP (IDR: 0x24770011)
+Mon Aug 05, 2019 13:44:59: AP[1]: JTAG-AP (IDR: 0x02880000)
+Mon Aug 05, 2019 13:44:59: Iterating through AP map to find AHB-AP to use
+Mon Aug 05, 2019 13:44:59: AP[0]: Core found
+Mon Aug 05, 2019 13:44:59: AP[0]: AHB-AP ROM base: 0xE00FF000
+Mon Aug 05, 2019 13:44:59: CPUID register: 0x410FC241. Implementer code: 0x41 (ARM)
+Mon Aug 05, 2019 13:44:59: Found Cortex-M4 r0p1, Little endian.
+Mon Aug 05, 2019 13:44:59: FPUnit: 6 code (BP) slots and 2 literal slots
+Mon Aug 05, 2019 13:44:59: CoreSight components:
+Mon Aug 05, 2019 13:44:59: ROMTbl[0] @ E00FF000
+Mon Aug 05, 2019 13:44:59: ROMTbl[0][0]: E000E000, CID: B105E00D, PID: 000BB000 SCS
+Mon Aug 05, 2019 13:44:59: ROMTbl[0][1]: E0001000, CID: B105E00D, PID: 003BB002 DWT
+Mon Aug 05, 2019 13:44:59: ROMTbl[0][2]: E0002000, CID: B105E00D, PID: 002BB003 FPB
+Mon Aug 05, 2019 13:44:59: Reset: Halt core after reset via DEMCR.VC_CORERESET.
+Mon Aug 05, 2019 13:44:59: Reset: Reset device via AIRCR.SYSRESETREQ.
+Mon Aug 05, 2019 13:44:59: 方法0によるハードウェアリセットが実行されました
+Mon Aug 05, 2019 13:44:59: 初期リセットが実行されました
+Mon Aug 05, 2019 13:45:01: J-Link: Flash download: Bank 0 @ 0x00000000: 1 range affected (45056 bytes)
+Mon Aug 05, 2019 13:45:01: J-Link: Flash download: Total time needed: 1.419s (Prepare: 0.028s, Compare: 0.005s, Erase: 0.906s, Program: 0.472s, Verify: 0.001s, Restore: 0.004s)
+Mon Aug 05, 2019 13:45:01: 44257 バイトがダウンロード済み(20.80 KB/秒)
+Mon Aug 05, 2019 13:45:01: ロードされたデバッギー: C:\kaihatsu\toYou\hs\firmware\nRF52 SDK\SDK14.2.0\project\hs\hs\pca10040e\s112\iar\_build\ble_app_template_pca10040e_s112.out
+Mon Aug 05, 2019 13:45:01: Reset: Halt core after reset via DEMCR.VC_CORERESET.
+Mon Aug 05, 2019 13:45:01: Reset: Reset device via AIRCR.SYSRESETREQ.
+Mon Aug 05, 2019 13:45:01: 方法0によるハードウェアリセットが実行されました
+Mon Aug 05, 2019 13:45:01: ターゲットリセット
+Mon Aug 05, 2019 13:46:02: ヒットしたブレークポイント: コード @ gpioCtrl.c:186.3、タイプ:デフォルト(自動) 
+Mon Aug 05, 2019 13:46:10: ヒットしたブレークポイント: コード @ main.c:296.3、タイプ:デフォルト(自動) 
+Mon Aug 05, 2019 13:46:19: ヒットしたブレークポイント: コード @ gpioCtrl.c:186.3、タイプ:デフォルト(自動) 
+Mon Aug 05, 2019 13:46:20: ヒットしたブレークポイント: コード @ main.c:295.3、タイプ:デフォルト(自動) 
+Mon Aug 05, 2019 13:47:05: ヒットしたブレークポイント: コード @ gpioCtrl.c:186.3、タイプ:デフォルト(自動) 
+
+
+ << ファイルへのロギングを再開します >> 
+
+Mon Aug 05, 2019 13:48:11: JLINKコマンド:ProjectFile = C:\kaihatsu\toYou\hs\firmware\nRF52 SDK\SDK14.2.0\project\hs\hs\pca10040e\s112\iar\settings\ble_app_template_pca10040e_s112_nrf52810_xxaa.jlink、リターン値 = 0
+
+Mon Aug 05, 2019 13:48:11: Device "NRF52810_XXAA" selected.
+Mon Aug 05, 2019 13:48:11: DLLバージョン:V6.44a、Mar  8 2019 17:31:48がコンパイルされました
+
+Mon Aug 05, 2019 13:48:11: ファームウェア:J-Link V10 compiled Mar  7 2019 15:19:19
+
+Mon Aug 05, 2019 13:48:11: 現在のターゲットインタフェースとしてSWDを選択しています。
+
+Mon Aug 05, 2019 13:48:11: JTAG速度の初期値:は1000 kHzです
+Mon Aug 05, 2019 13:48:11: Found SW-DP with ID 0x2BA01477
+Mon Aug 05, 2019 13:48:11: Found SW-DP with ID 0x2BA01477
+Mon Aug 05, 2019 13:48:11: Scanning AP map to find all available APs
+Mon Aug 05, 2019 13:48:11: AP[2]: Stopped AP scan as end of AP map has been reached
+Mon Aug 05, 2019 13:48:11: AP[0]: AHB-AP (IDR: 0x24770011)
+Mon Aug 05, 2019 13:48:11: AP[1]: JTAG-AP (IDR: 0x02880000)
+Mon Aug 05, 2019 13:48:11: Iterating through AP map to find AHB-AP to use
+Mon Aug 05, 2019 13:48:11: AP[0]: Core found
+Mon Aug 05, 2019 13:48:11: AP[0]: AHB-AP ROM base: 0xE00FF000
+Mon Aug 05, 2019 13:48:11: CPUID register: 0x410FC241. Implementer code: 0x41 (ARM)
+Mon Aug 05, 2019 13:48:11: Found Cortex-M4 r0p1, Little endian.
+Mon Aug 05, 2019 13:48:11: FPUnit: 6 code (BP) slots and 2 literal slots
+Mon Aug 05, 2019 13:48:11: CoreSight components:
+Mon Aug 05, 2019 13:48:11: ROMTbl[0] @ E00FF000
+Mon Aug 05, 2019 13:48:11: ROMTbl[0][0]: E000E000, CID: B105E00D, PID: 000BB000 SCS
+Mon Aug 05, 2019 13:48:11: ROMTbl[0][1]: E0001000, CID: B105E00D, PID: 003BB002 DWT
+Mon Aug 05, 2019 13:48:11: ROMTbl[0][2]: E0002000, CID: B105E00D, PID: 002BB003 FPB
+Mon Aug 05, 2019 13:48:11: Reset: Halt core after reset via DEMCR.VC_CORERESET.
+Mon Aug 05, 2019 13:48:11: Reset: Reset device via AIRCR.SYSRESETREQ.
+Mon Aug 05, 2019 13:48:11: 方法0によるハードウェアリセットが実行されました
+Mon Aug 05, 2019 13:48:11: 初期リセットが実行されました
+Mon Aug 05, 2019 13:48:14: J-Link: Flash download: Bank 0 @ 0x00000000: 1 range affected (45056 bytes)
+Mon Aug 05, 2019 13:48:14: J-Link: Flash download: Total time needed: 1.421s (Prepare: 0.027s, Compare: 0.006s, Erase: 0.908s, Program: 0.473s, Verify: 0.001s, Restore: 0.004s)
+Mon Aug 05, 2019 13:48:14: 44269 バイトがダウンロード済み(20.80 KB/秒)
+Mon Aug 05, 2019 13:48:14: ロードされたデバッギー: C:\kaihatsu\toYou\hs\firmware\nRF52 SDK\SDK14.2.0\project\hs\hs\pca10040e\s112\iar\_build\ble_app_template_pca10040e_s112.out
+Mon Aug 05, 2019 13:48:14: Reset: Halt core after reset via DEMCR.VC_CORERESET.
+Mon Aug 05, 2019 13:48:14: Reset: Reset device via AIRCR.SYSRESETREQ.
+Mon Aug 05, 2019 13:48:14: 方法0によるハードウェアリセットが実行されました
+Mon Aug 05, 2019 13:48:14: ターゲットリセット
+Mon Aug 05, 2019 13:48:42: ヒットしたブレークポイント: コード @ gpioCtrl.c:186.3、タイプ:デフォルト(自動) 
+Mon Aug 05, 2019 13:49:02: ヒットしたブレークポイント: コード @ gpioCtrl.c:186.3、タイプ:デフォルト(自動) 
+Mon Aug 05, 2019 13:49:04: ヒットしたブレークポイント: コード @ gpioCtrl.c:186.3、タイプ:デフォルト(自動) 
+Mon Aug 05, 2019 13:49:04: ヒットしたブレークポイント: コード @ gpioCtrl.c:186.3、タイプ:デフォルト(自動) 
+Mon Aug 05, 2019 13:49:05: ヒットしたブレークポイント: コード @ gpioCtrl.c:186.3、タイプ:デフォルト(自動) 
+Mon Aug 05, 2019 13:49:05: ヒットしたブレークポイント: コード @ gpioCtrl.c:186.3、タイプ:デフォルト(自動) 
+Mon Aug 05, 2019 13:49:06: ヒットしたブレークポイント: コード @ gpioCtrl.c:186.3、タイプ:デフォルト(自動) 
+Mon Aug 05, 2019 13:49:06: ヒットしたブレークポイント: コード @ gpioCtrl.c:186.3、タイプ:デフォルト(自動) 
+Mon Aug 05, 2019 13:49:07: ヒットしたブレークポイント: コード @ gpioCtrl.c:186.3、タイプ:デフォルト(自動) 
+Mon Aug 05, 2019 13:49:07: ヒットしたブレークポイント: コード @ gpioCtrl.c:186.3、タイプ:デフォルト(自動) 
+Mon Aug 05, 2019 13:49:08: ヒットしたブレークポイント: コード @ gpioCtrl.c:186.3、タイプ:デフォルト(自動) 
+Mon Aug 05, 2019 13:49:08: ヒットしたブレークポイント: コード @ gpioCtrl.c:186.3、タイプ:デフォルト(自動) 
+Mon Aug 05, 2019 13:49:09: ヒットしたブレークポイント: コード @ gpioCtrl.c:186.3、タイプ:デフォルト(自動) 
+Mon Aug 05, 2019 13:49:09: ヒットしたブレークポイント: コード @ gpioCtrl.c:186.3、タイプ:デフォルト(自動) 
+Mon Aug 05, 2019 13:49:09: ヒットしたブレークポイント: コード @ gpioCtrl.c:186.3、タイプ:デフォルト(自動) 
+Mon Aug 05, 2019 13:49:10: ヒットしたブレークポイント: コード @ gpioCtrl.c:186.3、タイプ:デフォルト(自動) 
+Mon Aug 05, 2019 13:49:10: ヒットしたブレークポイント: コード @ gpioCtrl.c:186.3、タイプ:デフォルト(自動) 
+Mon Aug 05, 2019 13:49:10: ヒットしたブレークポイント: コード @ gpioCtrl.c:186.3、タイプ:デフォルト(自動) 
+Mon Aug 05, 2019 13:49:11: ヒットしたブレークポイント: コード @ gpioCtrl.c:186.3、タイプ:デフォルト(自動) 
+Mon Aug 05, 2019 13:49:11: ヒットしたブレークポイント: コード @ gpioCtrl.c:186.3、タイプ:デフォルト(自動) 
+Mon Aug 05, 2019 13:49:11: ヒットしたブレークポイント: コード @ gpioCtrl.c:186.3、タイプ:デフォルト(自動) 
+Mon Aug 05, 2019 13:49:12: ヒットしたブレークポイント: コード @ gpioCtrl.c:186.3、タイプ:デフォルト(自動) 
+Mon Aug 05, 2019 13:49:12: ヒットしたブレークポイント: コード @ gpioCtrl.c:186.3、タイプ:デフォルト(自動) 
+Mon Aug 05, 2019 13:49:13: ヒットしたブレークポイント: コード @ gpioCtrl.c:186.3、タイプ:デフォルト(自動) 
+Mon Aug 05, 2019 13:49:13: ヒットしたブレークポイント: コード @ gpioCtrl.c:186.3、タイプ:デフォルト(自動) 
+Mon Aug 05, 2019 13:49:13: ヒットしたブレークポイント: コード @ gpioCtrl.c:186.3、タイプ:デフォルト(自動) 
+Mon Aug 05, 2019 13:49:13: ヒットしたブレークポイント: コード @ gpioCtrl.c:186.3、タイプ:デフォルト(自動) 
+Mon Aug 05, 2019 13:49:14: ヒットしたブレークポイント: コード @ gpioCtrl.c:186.3、タイプ:デフォルト(自動) 
+Mon Aug 05, 2019 13:49:14: ヒットしたブレークポイント: コード @ gpioCtrl.c:186.3、タイプ:デフォルト(自動) 
+Mon Aug 05, 2019 13:49:19: ヒットしたブレークポイント: コード @ gpioCtrl.c:186.3、タイプ:デフォルト(自動) 
+Mon Aug 05, 2019 13:50:02: ヒットしたブレークポイント: コード @ gpioCtrl.c:186.3、タイプ:デフォルト(自動) 
+Mon Aug 05, 2019 13:50:09: ヒットしたブレークポイント: コード @ gpioCtrl.c:186.3、タイプ:デフォルト(自動) 
+
+
+ << ファイルへのロギングを再開します >> 
+
+Mon Aug 05, 2019 13:53:17: JLINKコマンド:ProjectFile = C:\kaihatsu\toYou\hs\firmware\nRF52 SDK\SDK14.2.0\project\hs\hs\pca10040e\s112\iar\settings\ble_app_template_pca10040e_s112_nrf52810_xxaa.jlink、リターン値 = 0
+
+Mon Aug 05, 2019 13:53:17: Device "NRF52810_XXAA" selected.
+Mon Aug 05, 2019 13:53:17: DLLバージョン:V6.44a、Mar  8 2019 17:31:48がコンパイルされました
+
+Mon Aug 05, 2019 13:53:17: ファームウェア:J-Link V10 compiled Mar  7 2019 15:19:19
+
+Mon Aug 05, 2019 13:53:17: 現在のターゲットインタフェースとしてSWDを選択しています。
+
+Mon Aug 05, 2019 13:53:17: JTAG速度の初期値:は1000 kHzです
+Mon Aug 05, 2019 13:53:17: Found SW-DP with ID 0x2BA01477
+Mon Aug 05, 2019 13:53:17: Found SW-DP with ID 0x2BA01477
+Mon Aug 05, 2019 13:53:17: Scanning AP map to find all available APs
+Mon Aug 05, 2019 13:53:17: AP[2]: Stopped AP scan as end of AP map has been reached
+Mon Aug 05, 2019 13:53:17: AP[0]: AHB-AP (IDR: 0x24770011)
+Mon Aug 05, 2019 13:53:17: AP[1]: JTAG-AP (IDR: 0x02880000)
+Mon Aug 05, 2019 13:53:17: Iterating through AP map to find AHB-AP to use
+Mon Aug 05, 2019 13:53:17: AP[0]: Core found
+Mon Aug 05, 2019 13:53:17: AP[0]: AHB-AP ROM base: 0xE00FF000
+Mon Aug 05, 2019 13:53:17: CPUID register: 0x410FC241. Implementer code: 0x41 (ARM)
+Mon Aug 05, 2019 13:53:17: Found Cortex-M4 r0p1, Little endian.
+Mon Aug 05, 2019 13:53:17: FPUnit: 6 code (BP) slots and 2 literal slots
+Mon Aug 05, 2019 13:53:17: CoreSight components:
+Mon Aug 05, 2019 13:53:17: ROMTbl[0] @ E00FF000
+Mon Aug 05, 2019 13:53:17: ROMTbl[0][0]: E000E000, CID: B105E00D, PID: 000BB000 SCS
+Mon Aug 05, 2019 13:53:17: ROMTbl[0][1]: E0001000, CID: B105E00D, PID: 003BB002 DWT
+Mon Aug 05, 2019 13:53:17: ROMTbl[0][2]: E0002000, CID: B105E00D, PID: 002BB003 FPB
+Mon Aug 05, 2019 13:53:17: Reset: Halt core after reset via DEMCR.VC_CORERESET.
+Mon Aug 05, 2019 13:53:17: Reset: Reset device via AIRCR.SYSRESETREQ.
+Mon Aug 05, 2019 13:53:17: 方法0によるハードウェアリセットが実行されました
+Mon Aug 05, 2019 13:53:17: 初期リセットが実行されました
+Mon Aug 05, 2019 13:53:18: J-Link: Flash download: Bank 0 @ 0x00000000: 1 range affected (4096 bytes)
+Mon Aug 05, 2019 13:53:18: J-Link: Flash download: Total time needed: 0.203s (Prepare: 0.027s, Compare: 0.036s, Erase: 0.083s, Program: 0.050s, Verify: 0.000s, Restore: 0.004s)
+Mon Aug 05, 2019 13:53:18: 44269 バイトがダウンロード済み(52.21 KB/秒)
+Mon Aug 05, 2019 13:53:18: ロードされたデバッギー: C:\kaihatsu\toYou\hs\firmware\nRF52 SDK\SDK14.2.0\project\hs\hs\pca10040e\s112\iar\_build\ble_app_template_pca10040e_s112.out
+Mon Aug 05, 2019 13:53:18: Reset: Halt core after reset via DEMCR.VC_CORERESET.
+Mon Aug 05, 2019 13:53:18: Reset: Reset device via AIRCR.SYSRESETREQ.
+Mon Aug 05, 2019 13:53:18: 方法0によるハードウェアリセットが実行されました
+Mon Aug 05, 2019 13:53:18: ターゲットリセット
+Mon Aug 05, 2019 13:53:29: ヒットしたブレークポイント: コード @ gpioCtrl.c:186.3、タイプ:デフォルト(自動) 
+Mon Aug 05, 2019 13:53:45: ヒットしたブレークポイント: コード @ gpioCtrl.c:186.3、タイプ:デフォルト(自動) 
+Mon Aug 05, 2019 13:54:07: ヒットしたブレークポイント: コード @ gpioCtrl.c:186.3、タイプ:デフォルト(自動) 
+
+
+ << ファイルへのロギングを再開します >> 
+
+Mon Aug 05, 2019 14:25:25: JLINKコマンド:ProjectFile = C:\kaihatsu\toYou\hs\firmware\nRF52 SDK\SDK14.2.0\project\hs\hs\pca10040e\s112\iar\settings\ble_app_template_pca10040e_s112_nrf52810_xxaa.jlink、リターン値 = 0
+
+Mon Aug 05, 2019 14:25:25: Device "NRF52810_XXAA" selected.
+Mon Aug 05, 2019 14:25:25: DLLバージョン:V6.44a、Mar  8 2019 17:31:48がコンパイルされました
+
+Mon Aug 05, 2019 14:25:25: ファームウェア:J-Link V10 compiled Mar  7 2019 15:19:19
+
+Mon Aug 05, 2019 14:25:25: 現在のターゲットインタフェースとしてSWDを選択しています。
+
+Mon Aug 05, 2019 14:25:25: JTAG速度の初期値:は1000 kHzです
+Mon Aug 05, 2019 14:25:25: Found SW-DP with ID 0x2BA01477
+Mon Aug 05, 2019 14:25:25: Found SW-DP with ID 0x2BA01477
+Mon Aug 05, 2019 14:25:25: Scanning AP map to find all available APs
+Mon Aug 05, 2019 14:25:25: AP[2]: Stopped AP scan as end of AP map has been reached
+Mon Aug 05, 2019 14:25:25: AP[0]: AHB-AP (IDR: 0x24770011)
+Mon Aug 05, 2019 14:25:25: AP[1]: JTAG-AP (IDR: 0x02880000)
+Mon Aug 05, 2019 14:25:25: Iterating through AP map to find AHB-AP to use
+Mon Aug 05, 2019 14:25:25: AP[0]: Core found
+Mon Aug 05, 2019 14:25:25: AP[0]: AHB-AP ROM base: 0xE00FF000
+Mon Aug 05, 2019 14:25:25: CPUID register: 0x410FC241. Implementer code: 0x41 (ARM)
+Mon Aug 05, 2019 14:25:25: Found Cortex-M4 r0p1, Little endian.
+Mon Aug 05, 2019 14:25:25: FPUnit: 6 code (BP) slots and 2 literal slots
+Mon Aug 05, 2019 14:25:25: CoreSight components:
+Mon Aug 05, 2019 14:25:25: ROMTbl[0] @ E00FF000
+Mon Aug 05, 2019 14:25:25: ROMTbl[0][0]: E000E000, CID: B105E00D, PID: 000BB000 SCS
+Mon Aug 05, 2019 14:25:25: ROMTbl[0][1]: E0001000, CID: B105E00D, PID: 003BB002 DWT
+Mon Aug 05, 2019 14:25:25: ROMTbl[0][2]: E0002000, CID: B105E00D, PID: 002BB003 FPB
+Mon Aug 05, 2019 14:25:25: Reset: Halt core after reset via DEMCR.VC_CORERESET.
+Mon Aug 05, 2019 14:25:25: Reset: Reset device via AIRCR.SYSRESETREQ.
+Mon Aug 05, 2019 14:25:25: 方法0によるハードウェアリセットが実行されました
+Mon Aug 05, 2019 14:25:25: 初期リセットが実行されました
+Mon Aug 05, 2019 14:25:28: J-Link: Flash download: Bank 0 @ 0x00000000: 1 range affected (45056 bytes)
+Mon Aug 05, 2019 14:25:28: J-Link: Flash download: Total time needed: 1.424s (Prepare: 0.029s, Compare: 0.007s, Erase: 0.905s, Program: 0.472s, Verify: 0.003s, Restore: 0.005s)
+Mon Aug 05, 2019 14:25:28: 44217 バイトがダウンロード済み(20.62 KB/秒)
+Mon Aug 05, 2019 14:25:28: ロードされたデバッギー: C:\kaihatsu\toYou\hs\firmware\nRF52 SDK\SDK14.2.0\project\hs\hs\pca10040e\s112\iar\_build\ble_app_template_pca10040e_s112.out
+Mon Aug 05, 2019 14:25:28: Reset: Halt core after reset via DEMCR.VC_CORERESET.
+Mon Aug 05, 2019 14:25:28: Reset: Reset device via AIRCR.SYSRESETREQ.
+Mon Aug 05, 2019 14:25:28: 方法0によるハードウェアリセットが実行されました
+Mon Aug 05, 2019 14:25:28: ターゲットリセット
+Mon Aug 05, 2019 14:25:47: ヒットしたブレークポイント: コード @ main.c:683.16、タイプ:デフォルト(自動) 
+Mon Aug 05, 2019 14:25:54: ヒットしたブレークポイント: コード @ app_error_weak.c:63.5、タイプ:デフォルト(自動) 
+Mon Aug 05, 2019 14:26:40: ヒットしたブレークポイント: コード @ app_error_weak.c:97.5、タイプ:デフォルト(自動) 
+
+
+ << ファイルへのロギングを再開します >> 
+
+Mon Aug 05, 2019 14:26:45: JLINKコマンド:ProjectFile = C:\kaihatsu\toYou\hs\firmware\nRF52 SDK\SDK14.2.0\project\hs\hs\pca10040e\s112\iar\settings\ble_app_template_pca10040e_s112_nrf52810_xxaa.jlink、リターン値 = 0
+
+Mon Aug 05, 2019 14:26:45: Device "NRF52810_XXAA" selected.
+Mon Aug 05, 2019 14:26:45: DLLバージョン:V6.44a、Mar  8 2019 17:31:48がコンパイルされました
+
+Mon Aug 05, 2019 14:26:45: ファームウェア:J-Link V10 compiled Mar  7 2019 15:19:19
+
+Mon Aug 05, 2019 14:26:45: 現在のターゲットインタフェースとしてSWDを選択しています。
+
+Mon Aug 05, 2019 14:26:45: JTAG速度の初期値:は1000 kHzです
+Mon Aug 05, 2019 14:26:45: Found SW-DP with ID 0x2BA01477
+Mon Aug 05, 2019 14:26:45: Found SW-DP with ID 0x2BA01477
+Mon Aug 05, 2019 14:26:45: Scanning AP map to find all available APs
+Mon Aug 05, 2019 14:26:45: AP[2]: Stopped AP scan as end of AP map has been reached
+Mon Aug 05, 2019 14:26:45: AP[0]: AHB-AP (IDR: 0x24770011)
+Mon Aug 05, 2019 14:26:45: AP[1]: JTAG-AP (IDR: 0x02880000)
+Mon Aug 05, 2019 14:26:45: Iterating through AP map to find AHB-AP to use
+Mon Aug 05, 2019 14:26:45: AP[0]: Core found
+Mon Aug 05, 2019 14:26:45: AP[0]: AHB-AP ROM base: 0xE00FF000
+Mon Aug 05, 2019 14:26:45: CPUID register: 0x410FC241. Implementer code: 0x41 (ARM)
+Mon Aug 05, 2019 14:26:45: Found Cortex-M4 r0p1, Little endian.
+Mon Aug 05, 2019 14:26:46: FPUnit: 6 code (BP) slots and 2 literal slots
+Mon Aug 05, 2019 14:26:46: CoreSight components:
+Mon Aug 05, 2019 14:26:46: ROMTbl[0] @ E00FF000
+Mon Aug 05, 2019 14:26:46: ROMTbl[0][0]: E000E000, CID: B105E00D, PID: 000BB000 SCS
+Mon Aug 05, 2019 14:26:46: ROMTbl[0][1]: E0001000, CID: B105E00D, PID: 003BB002 DWT
+Mon Aug 05, 2019 14:26:46: ROMTbl[0][2]: E0002000, CID: B105E00D, PID: 002BB003 FPB
+Mon Aug 05, 2019 14:26:46: Reset: Halt core after reset via DEMCR.VC_CORERESET.
+Mon Aug 05, 2019 14:26:46: Reset: Reset device via AIRCR.SYSRESETREQ.
+Mon Aug 05, 2019 14:26:46: 方法0によるハードウェアリセットが実行されました
+Mon Aug 05, 2019 14:26:46: 初期リセットが実行されました
+Mon Aug 05, 2019 14:26:47: J-Link: Flash download: Bank 0 @ 0x00000000: Skipped. Contents already match
+Mon Aug 05, 2019 14:26:47: 44217 バイトがダウンロード済み(60.06 KB/秒)
+Mon Aug 05, 2019 14:26:47: ロードされたデバッギー: C:\kaihatsu\toYou\hs\firmware\nRF52 SDK\SDK14.2.0\project\hs\hs\pca10040e\s112\iar\_build\ble_app_template_pca10040e_s112.out
+Mon Aug 05, 2019 14:26:47: Reset: Halt core after reset via DEMCR.VC_CORERESET.
+Mon Aug 05, 2019 14:26:47: Reset: Reset device via AIRCR.SYSRESETREQ.
+Mon Aug 05, 2019 14:26:47: 方法0によるハードウェアリセットが実行されました
+Mon Aug 05, 2019 14:26:47: ターゲットリセット
+Mon Aug 05, 2019 14:26:52: ヒットしたブレークポイント: コード @ i2cCtrl.c:170.2、タイプ:デフォルト(自動) 
+Mon Aug 05, 2019 14:27:01: ヒットしたブレークポイント: コード @ i2cCtrl.c:293.2、タイプ:デフォルト(自動) 
+Mon Aug 05, 2019 14:27:24: ヒットしたブレークポイント: コード @ app_error_weak.c:63.5、タイプ:デフォルト(自動) 
+Mon Aug 05, 2019 14:27:30: ヒットしたブレークポイント: コード @ app_error_weak.c:97.5、タイプ:デフォルト(自動) 
+Mon Aug 05, 2019 14:27:35: ヒットしたブレークポイント: コード @ app_error_weak.c:105.5、タイプ:デフォルト(自動) 
+Mon Aug 05, 2019 14:27:38: ヒットしたブレークポイント: コード @ main.c:199.2、タイプ:デフォルト(自動) 
+Mon Aug 05, 2019 14:27:44: ヒットしたブレークポイント: コード @ i2cCtrl.c:293.2、タイプ:デフォルト(自動) 
+Mon Aug 05, 2019 14:27:47: ヒットしたブレークポイント: コード @ app_error_weak.c:63.5、タイプ:デフォルト(自動) 
+
+
+ << ファイルへのロギングを再開します >> 
+
+Wed Nov 13, 2019 11:43:58: JLINKコマンド:ProjectFile = C:\kaihatsu\toYou\hs\firmware\nRF52 SDK\SDK14.2.0\project\hs\hs\pca10040e\s112\iar\settings\ble_app_template_pca10040e_s112_nrf52810_xxaa.jlink、リターン値 = 0
+
+Wed Nov 13, 2019 11:43:58: Device "NRF52810_XXAA" selected.
+Wed Nov 13, 2019 11:43:58: DLLバージョン:V6.44a、Mar  8 2019 17:31:48がコンパイルされました
+
+Wed Nov 13, 2019 11:43:58: ファームウェア:J-Link V10 compiled Mar  7 2019 15:19:19
+
+Wed Nov 13, 2019 11:43:58: 現在のターゲットインタフェースとしてSWDを選択しています。
+
+Wed Nov 13, 2019 11:43:58: JTAG速度の初期値:は1000 kHzです
+Wed Nov 13, 2019 11:43:58: 方法0によるハードウェアリセットが実行されました
+Wed Nov 13, 2019 11:43:58: 初期リセットが実行されました
+
+
+ << ファイルへのロギングを再開します >> 
+
+Wed Nov 13, 2019 11:44:25: JLINKコマンド:ProjectFile = C:\kaihatsu\toYou\hs\firmware\nRF52 SDK\SDK14.2.0\project\hs\hs\pca10040e\s112\iar\settings\ble_app_template_pca10040e_s112_nrf52810_xxaa.jlink、リターン値 = 0
+
+Wed Nov 13, 2019 11:44:25: Device "NRF52810_XXAA" selected.
+Wed Nov 13, 2019 11:44:25: DLLバージョン:V6.44a、Mar  8 2019 17:31:48がコンパイルされました
+
+Wed Nov 13, 2019 11:44:25: ファームウェア:J-Link V10 compiled Mar  7 2019 15:19:19
+
+Wed Nov 13, 2019 11:44:25: 現在のターゲットインタフェースとしてSWDを選択しています。
+
+Wed Nov 13, 2019 11:44:25: JTAG速度の初期値:は1000 kHzです
+Wed Nov 13, 2019 11:44:25: 方法0によるハードウェアリセットが実行されました
+Wed Nov 13, 2019 11:44:25: 初期リセットが実行されました
+
+
+ << ファイルへのロギングを再開します >> 
+
+Wed Nov 13, 2019 11:45:10: JLINKコマンド:ProjectFile = C:\kaihatsu\toYou\hs\firmware\nRF52 SDK\SDK14.2.0\project\hs\hs\pca10040e\s112\iar\settings\ble_app_template_pca10040e_s112_nrf52810_xxaa.jlink、リターン値 = 0
+
+Wed Nov 13, 2019 11:45:10: Device "NRF52810_XXAA" selected.
+Wed Nov 13, 2019 11:45:10: DLLバージョン:V6.44a、Mar  8 2019 17:31:48がコンパイルされました
+
+Wed Nov 13, 2019 11:45:10: ファームウェア:J-Link V10 compiled Mar  7 2019 15:19:19
+
+Wed Nov 13, 2019 11:45:10: 現在のターゲットインタフェースとしてSWDを選択しています。
+
+Wed Nov 13, 2019 11:45:10: JTAG速度の初期値:は1000 kHzです
+Wed Nov 13, 2019 11:45:10: 方法0によるハードウェアリセットが実行されました
+Wed Nov 13, 2019 11:45:10: 初期リセットが実行されました
+
+
+ << ファイルへのロギングを再開します >> 
+
+Wed Nov 13, 2019 13:16:44: JLINKコマンド:ProjectFile = C:\kaihatsu\toYou\hs\firmware\nRF52 SDK\SDK14.2.0\project\hs\hs\pca10040e\s112\iar\settings\ble_app_template_pca10040e_s112_nrf52810_xxaa.jlink、リターン値 = 0
+
+Wed Nov 13, 2019 13:16:44: Device "NRF52810_XXAA" selected.
+Wed Nov 13, 2019 13:16:44: DLLバージョン:V6.44a、Mar  8 2019 17:31:48がコンパイルされました
+
+Wed Nov 13, 2019 13:16:44: ファームウェア:J-Link V10 compiled Mar  7 2019 15:19:19
+
+Wed Nov 13, 2019 13:16:44: 現在のターゲットインタフェースとしてSWDを選択しています。
+
+Wed Nov 13, 2019 13:16:44: JTAG速度の初期値:は1000 kHzです
+Wed Nov 13, 2019 13:16:44: 方法0によるハードウェアリセットが実行されました
+Wed Nov 13, 2019 13:16:44: 初期リセットが実行されました
+
+
+ << ファイルへのロギングを再開します >> 
+
+Wed Nov 13, 2019 13:17:02: JLINKコマンド:ProjectFile = C:\kaihatsu\toYou\hs\firmware\nRF52 SDK\SDK14.2.0\project\hs\hs\pca10040e\s112\iar\settings\ble_app_template_pca10040e_s112_nrf52810_xxaa.jlink、リターン値 = 0
+
+Wed Nov 13, 2019 13:17:02: Device "NRF52810_XXAA" selected.
+Wed Nov 13, 2019 13:17:02: DLLバージョン:V6.44a、Mar  8 2019 17:31:48がコンパイルされました
+
+Wed Nov 13, 2019 13:17:02: ファームウェア:J-Link V10 compiled Mar  7 2019 15:19:19
+
+Wed Nov 13, 2019 13:17:02: 現在のターゲットインタフェースとしてSWDを選択しています。
+
+Wed Nov 13, 2019 13:17:02: JTAG速度の初期値:は1000 kHzです
+Wed Nov 13, 2019 13:17:02: 方法0によるハードウェアリセットが実行されました
+Wed Nov 13, 2019 13:17:02: 初期リセットが実行されました
+Wed Nov 13, 2019 13:17:43: Found SW-DP with ID 0x2BA01477
+Wed Nov 13, 2019 13:17:43: Found SW-DP with ID 0x2BA01477
+Wed Nov 13, 2019 13:17:43: Scanning AP map to find all available APs
+Wed Nov 13, 2019 13:17:43: AP[2]: Stopped AP scan as end of AP map has been reached
+Wed Nov 13, 2019 13:17:43: AP[0]: AHB-AP (IDR: 0x24770011)
+Wed Nov 13, 2019 13:17:43: AP[1]: JTAG-AP (IDR: 0x02880000)
+Wed Nov 13, 2019 13:17:43: Iterating through AP map to find AHB-AP to use
+Wed Nov 13, 2019 13:17:43: AP[0]: Core found
+Wed Nov 13, 2019 13:17:43: AP[0]: AHB-AP ROM base: 0xE00FF000
+Wed Nov 13, 2019 13:17:43: CPUID register: 0x410FC241. Implementer code: 0x41 (ARM)
+Wed Nov 13, 2019 13:17:43: Found Cortex-M4 r0p1, Little endian.
+Wed Nov 13, 2019 13:17:43: FPUnit: 6 code (BP) slots and 2 literal slots
+Wed Nov 13, 2019 13:17:43: CoreSight components:
+Wed Nov 13, 2019 13:17:43: ROMTbl[0] @ E00FF000
+Wed Nov 13, 2019 13:17:43: ROMTbl[0][0]: E000E000, CID: B105E00D, PID: 000BB000 SCS
+Wed Nov 13, 2019 13:17:43: ROMTbl[0][1]: E0001000, CID: B105E00D, PID: 003BB002 DWT
+Wed Nov 13, 2019 13:17:43: ROMTbl[0][2]: E0002000, CID: B105E00D, PID: 002BB003 FPB
+Wed Nov 13, 2019 13:17:43: Reset: Halt core after reset via DEMCR.VC_CORERESET.
+Wed Nov 13, 2019 13:17:43: Reset: Reset device via AIRCR.SYSRESETREQ.
+Wed Nov 13, 2019 13:17:43: 方法0によるハードウェアリセットが実行されました
+Wed Nov 13, 2019 13:17:43: 初期リセットが実行されました
+Wed Nov 13, 2019 13:17:45: J-Link: Flash download: Bank 0 @ 0x00000000: 1 range affected (45056 bytes)
+Wed Nov 13, 2019 13:17:45: J-Link: Flash download: Total time needed: 1.443s (Prepare: 0.043s, Compare: 0.007s, Erase: 0.911s, Program: 0.474s, Verify: 0.001s, Restore: 0.004s)
+Wed Nov 13, 2019 13:17:45: 44217 バイトがダウンロード済み(20.32 KB/秒)
+Wed Nov 13, 2019 13:17:45: ロードされたデバッギー: C:\kaihatsu\toYou\hs\firmware\nRF52 SDK\SDK14.2.0\project\hs\hs\pca10040e\s112\iar\_build\ble_app_template_pca10040e_s112.out
+Wed Nov 13, 2019 13:17:45: Reset: Halt core after reset via DEMCR.VC_CORERESET.
+Wed Nov 13, 2019 13:17:45: Reset: Reset device via AIRCR.SYSRESETREQ.
+Wed Nov 13, 2019 13:17:45: 方法0によるハードウェアリセットが実行されました
+Wed Nov 13, 2019 13:17:45: ターゲットリセット
