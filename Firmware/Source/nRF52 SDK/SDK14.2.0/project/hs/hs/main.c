@@ -111,6 +111,8 @@ BLE_ADVERTISING_DEF(m_advertising);				/**< Advertising module instance. */
 #define	DEF_LSM303_THRESHOLD	160	// 上下限値に適用
 //#define	DEF_LSM303_THRESHOLD	1000	// 上下限値に適用	debug用
 
+#define FLASH_AREA				(0x2fff0)
+#define SERIAL_NO_SIZE			(8)
 /* ****************************************************************************
 	STATIC VARIABLES
 **************************************************************************** */
@@ -130,6 +132,7 @@ uint16_t _unBatteryLow;							// バッテリロー検出
 bool _bPairMode;								// ペアリングボタン押下状態
 bool _bTemp;									// サーミスタデータ有効フラグ
 bool _bHum;										// 湿度計データ有効フラグ
+uint8_t _str_serial_number[SERIAL_NO_SIZE];  // Serial number should be 8 bytes "00000000":"FFFFFFFF". It should be ASCII Code.(Not binary), should be placed at the last portion of flash memory                         
 
 /* ****************************************************************************
 	STATIC FUNCTIONS
@@ -141,6 +144,7 @@ static void getAccelData(uint16_t unAccelReadCnt);
 static void dataExchg(uint16_t unSendSeqNum, uint16_t unSendPacketNum);
 static void dataExchgA(uint16_t unPackectNum, int unLen);
 static uint16_t setTemp(uint16_t unSendSeqNum);
+void flash_load_device_name(uint8_t* serial_number);
 static uint16_t setAccel(uint16_t unSendSeqNum, uint16_t unSendPacketNum);
 
 static void sleep_mode_enter(void);
@@ -455,6 +459,9 @@ static void dataExchgA(uint16_t unPacketNum, int unLen)
 uint16_t setTemp(uint16_t unSendSeqNum)
 {
 	uint8_t *p = _uManufData;	// 送信用バッファ
+ 	uint8_t unLen;
+	uint8_t unType;
+	uint8_t device_name[SERIAL_NO_SIZE - 1];
 
 	// read sensor-datas
 	uint16_t unStatus;
@@ -465,6 +472,18 @@ uint16_t setTemp(uint16_t unSendSeqNum)
 	unStatus |= (isWakeupPairingSw()<<14);
 	unStatus |= (isBatteryLow()<<15);
 	unStatus |= ((unSendSeqNum & 0x000f)<<4);		// Send Seq-Number
+
+	// read DEVICE_NAME : put serial number here!
+	flash_load_device_name(_str_serial_number);
+	unLen = 7;                                // Keep current specification
+	unType = _str_serial_number[0];           // put Serial Number here!
+	device_name[0] = _str_serial_number[1];   // put Serial Number here!
+	device_name[1] = _str_serial_number[2];   // put Serial Number here!
+	device_name[2] = _str_serial_number[3];   // put Serial Number here!
+	device_name[3] = _str_serial_number[4];   // put Serial Number here!
+	device_name[4] = _str_serial_number[5];   // put Serial Number here!
+	device_name[5] = _str_serial_number[6];   // put Serial Number here!
+	device_name[6] = _str_serial_number[7];   // put Serial Number here!
 
 	// data set to advertising buff
 	memset(p, 0x00, APP_BEACON_INFO_LENGTH);
@@ -477,9 +496,20 @@ uint16_t setTemp(uint16_t unSendSeqNum)
 	memcpy((char*)p, &_unLongSeq, sizeof(uint16_t) * 1);
 	p += sizeof(uint16_t) * 1;
 
-	return 10;
+	// LEN(1) | TYPE(1) | DEVICE_NAME(7)
+	memcpy((char*)p, &unLen, 1);
+	p += sizeof(uint8_t);
+	memcpy((char*)p, &unType, 1);
+	p += sizeof(uint8_t);
+	memcpy((char*)p, device_name, 7);
+	return 20;
 }
 
+// load serial number from flash
+void flash_load_device_name(uint8_t* str_serial_number)
+{
+	memcpy((uint8_t*)str_serial_number, (uint8_t*)FLASH_AREA, SERIAL_NO_SIZE);
+}
 /* ----------------------------------------------------------------------------
  Name        : void setAccel(uint16_t unSendSeqNum, uint16_t unSendPacketNum)
  Argument    : uint16_t unSendSeqNum	データ送信回数何回目
@@ -504,6 +534,7 @@ static uint16_t setAccel(uint16_t unSendSeqNum, uint16_t unSendPacketNum)
 		unLen = DEF_ACCEL_PACKET_LEN - sizeof(int16_t) * 3;		// XYZ
 		unDataCnt = DEF_ACCEL_SEND_CNT_PACKET - 1;
 	}
+	unStatus |= DEF_STATUS_DEVICE_NAME;	// add device name, should be always set to 1.  Getaway checks it.
 	unStatus |= (isWakeupPairingSw()<<14);
 	unStatus |= (isBatteryLow()<<15);
 	unStatus |= ((unSendSeqNum & 0x000f)<<4);		// Send Seq-Number
