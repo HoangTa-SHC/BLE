@@ -1,0 +1,15 @@
+speed 12000
+if JTAG
+device R7S721001
+jtagconf -1,-1
+//
+// Forces J-Link to program, even if flash contents already match data to be programmed
+//
+rx 100
+exec SetSkipProgOnCRCMatch=0
+//
+// Download application into QSPI flash
+//
+loadbin firmware.bin,0x18000000
+verifybin firmware.bin,0x18000000
+

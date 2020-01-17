@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.960
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirmwareDownloader", "FirmwareDownloader\FirmwareDownloader.csproj", "{EC890DA8-BA37-49D9-BF4D-26F0C579A000}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0632A76E-1490-47D5-9358-524B16F87C21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0632A76E-1490-47D5-9358-524B16F87C21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0632A76E-1490-47D5-9358-524B16F87C21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0632A76E-1490-47D5-9358-524B16F87C21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC890DA8-BA37-49D9-BF4D-26F0C579A000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC890DA8-BA37-49D9-BF4D-26F0C579A000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC890DA8-BA37-49D9-BF4D-26F0C579A000}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC890DA8-BA37-49D9-BF4D-26F0C579A000}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {766ED76B-5B28-4F51-B6AD-870EC4BA1D5A}
+	EndGlobalSection
+EndGlobal
