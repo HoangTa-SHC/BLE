@@ -1,6 +1,6 @@
-speed 12000
+//speed 12000
 if JTAG
-device R7S721001
+device NRF52810_XXAA
 jtagconf -1,-1
 //
 // Forces J-Link to program, even if flash contents already match data to be programmed
@@ -10,6 +10,6 @@ exec SetSkipProgOnCRCMatch=0
 //
 // Download application into QSPI flash
 //
-loadbin firmware.bin,0x18000000
-verifybin firmware.bin,0x18000000
+loadfile ble_app_template_pca10040e_s112.hex
+
 
