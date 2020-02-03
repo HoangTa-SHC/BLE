@@ -502,7 +502,8 @@ uint16_t setTemp(uint16_t unSendSeqNum)
 	memcpy((char*)p, &unType, 1);
 	p += sizeof(uint8_t);
 	memcpy((char*)p, device_name, 7);
-	return 20;
+	p += 7;
+	return (uint32_t)p - (uint32_t)_uManufData;
 }
 
 // load serial number from flash
