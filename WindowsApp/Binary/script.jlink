@@ -1,7 +1,6 @@
-//speed 12000
-if JTAG
+if SWD
 device NRF52810_XXAA
-jtagconf -1,-1
+speed auto
 //
 // Forces J-Link to program, even if flash contents already match data to be programmed
 //
