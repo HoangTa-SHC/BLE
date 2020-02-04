@@ -84,10 +84,24 @@ namespace FirmwareDownloader
                 parser.WriteFile(CONFIGURATION_FILE, config);
 
                 lbSerialNo.Text = serial_number.start.ToString("D" + serial_number.length);
-                btnStart.Enabled = true;
+
+                if (serial_number.max <= 0) {
+                    MessageBox.Show("Maximum count reached!");
+                    btnStart.Enabled = false;
+                }
+                else if (lbSerialNo.Text.Length > serial_number.length)
+                {
+                    MessageBox.Show("Out of range!");
+                    btnStart.Enabled = false;
+                }
+                else
+                {
+                    btnStart.Enabled = true;
+                }
             }
             else
             {
+                // Should never reach here
                 MessageBox.Show("Maximum count reached!");
             }
         }
@@ -98,7 +112,7 @@ namespace FirmwareDownloader
             if (File.Exists(CONFIGURATION_FILE))
             {
                 config = parser.ReadFile(CONFIGURATION_FILE);
-                serial_number.start = Convert.ToUInt64(config["SerialNo"]["Start"], 16);
+                serial_number.start = UInt64.Parse(config["SerialNo"]["Start"]);
                 serial_number.max = UInt64.Parse(config["SerialNo"]["Max"]);
                 serial_number.length = Byte.Parse(config["SerialNo"]["Length"]);
                 serial_number.address = Convert.ToUInt64(config["SerialNo"]["Address"], 16);
@@ -110,11 +124,16 @@ namespace FirmwareDownloader
                 {
                     jlink = "JLink";
                 }
-                lbSerialNo.Text = serial_number.start.ToString("X" + serial_number.length);
+                lbSerialNo.Text = serial_number.start.ToString("D" + serial_number.length);
 
                 if (serial_number.max <= 0)
                 {
                     MessageBox.Show("Maximum count reached!");
+                    btnStart.Enabled = false;
+                }
+                else if (lbSerialNo.Text.Length > serial_number.length)
+                {
+                    MessageBox.Show("Out of range!");
                     btnStart.Enabled = false;
                 }
             }
