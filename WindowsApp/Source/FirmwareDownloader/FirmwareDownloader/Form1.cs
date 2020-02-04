@@ -45,7 +45,7 @@ namespace FirmwareDownloader
             {
                 // Do work
                 string jlink_script = File.ReadAllText(JLINK_TEMPLATE_FILE);
-                string serial_string = serial_number.start.ToString("X" + serial_number.length);
+                string serial_string = serial_number.start.ToString("D" + serial_number.length);
                 byte[] serial_hex = Encoding.Default.GetBytes(serial_string);
                 File.WriteAllText(JLINK_SCRIPT_FILE, jlink_script);
                 for (Byte i = 0; i < serial_number.length; i++)
@@ -78,12 +78,12 @@ namespace FirmwareDownloader
                 // Update ini file
                 serial_number.start++;
                 serial_number.max--;
-                config["SerialNo"]["Start"] = serial_number.start.ToString("X" + serial_number.length);
+                config["SerialNo"]["Start"] = serial_number.start.ToString();
                 config["SerialNo"]["Max"] = serial_number.max.ToString();
                 var parser = new FileIniDataParser();
                 parser.WriteFile(CONFIGURATION_FILE, config);
 
-                lbSerialNo.Text = serial_number.start.ToString("X" + serial_number.length);
+                lbSerialNo.Text = serial_number.start.ToString("D" + serial_number.length);
                 btnStart.Enabled = true;
             }
             else
