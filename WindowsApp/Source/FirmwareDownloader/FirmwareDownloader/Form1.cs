@@ -61,18 +61,20 @@ namespace FirmwareDownloader
 
                 // Execute the command synchronously.
                 ExecuteCommand exe = new ExecuteCommand();
-                string result = exe.ExecuteCommandSync(jlink + " -CommanderScript " + JLINK_SCRIPT_FILE);
+                string result = exe.ExecuteCommandSync(jlink + " -ExitOnError -CommanderScript " + JLINK_SCRIPT_FILE);
                 File.AppendAllText(LOG_FILE, result);
                 File.Delete(JLINK_SCRIPT_FILE);
 
                 if (result.Contains("Connecting to J-Link via USB...FAILED: Cannot connect to J-Link via USB."))
                 {
                     MessageBox.Show("Cannot connect to J-Link via USB!");
+                    return;
                 }
 
                 if (result.Contains("Cannot connect to target."))
                 {
                     MessageBox.Show("Cannot connect to target!");
+                    return;
                 }
 
                 // Update ini file
