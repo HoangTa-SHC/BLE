@@ -68,12 +68,14 @@ namespace FirmwareDownloader
                 if (result.Contains("Connecting to J-Link via USB...FAILED: Cannot connect to J-Link via USB."))
                 {
                     MessageBox.Show("Cannot connect to J-Link via USB!");
+                    btnStart.Enabled = true;
                     return;
                 }
 
                 if (result.Contains("Cannot connect to target."))
                 {
                     MessageBox.Show("Cannot connect to target!");
+                    btnStart.Enabled = true;
                     return;
                 }
 
