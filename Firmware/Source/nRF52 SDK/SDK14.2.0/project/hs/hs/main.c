@@ -172,9 +172,11 @@ static void gap_params_init(void)
 
     BLE_GAP_CONN_SEC_MODE_SET_OPEN(&sec_mode);
 
+    flash_load_device_name(_str_serial_number);
+    
     err_code = sd_ble_gap_device_name_set(&sec_mode,
-                                          (const uint8_t *)DEVICE_NAME,
-                                           strlen(DEVICE_NAME));
+                                          (const uint8_t *)_str_serial_number,
+                                           SERIAL_NO_SIZE);
     APP_ERROR_CHECK(err_code);
 /*
     err_code = sd_ble_gap_appearance_set(BLE_APPEARANCE_GENERIC_THERMOMETER);
