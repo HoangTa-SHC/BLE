@@ -462,8 +462,8 @@ uint16_t setTemp(uint16_t unSendSeqNum)
 {
 	uint8_t *p = _uManufData;	// 送信用バッファ
  	uint8_t unLen;
-	uint8_t unType;
-	uint8_t device_name[SERIAL_NO_SIZE - 1];
+//	uint8_t unType;
+//	uint8_t device_name[SERIAL_NO_SIZE - 1];
 
 	// read sensor-datas
 	uint16_t unStatus;
@@ -476,16 +476,16 @@ uint16_t setTemp(uint16_t unSendSeqNum)
 	unStatus |= ((unSendSeqNum & 0x000f)<<4);		// Send Seq-Number
 
 	// read DEVICE_NAME : put serial number here!
-	flash_load_device_name(_str_serial_number);
+//	flash_load_device_name(_str_serial_number);
 	unLen = 7;                                // Keep current specification
-	unType = _str_serial_number[0];           // put Serial Number here!
-	device_name[0] = _str_serial_number[1];   // put Serial Number here!
-	device_name[1] = _str_serial_number[2];   // put Serial Number here!
-	device_name[2] = _str_serial_number[3];   // put Serial Number here!
-	device_name[3] = _str_serial_number[4];   // put Serial Number here!
-	device_name[4] = _str_serial_number[5];   // put Serial Number here!
-	device_name[5] = _str_serial_number[6];   // put Serial Number here!
-	device_name[6] = _str_serial_number[7];   // put Serial Number here!
+//	unType = _str_serial_number[0];           // put Serial Number here!
+//	device_name[0] = _str_serial_number[1];   // put Serial Number here!
+//	device_name[1] = _str_serial_number[2];   // put Serial Number here!
+//	device_name[2] = _str_serial_number[3];   // put Serial Number here!
+//	device_name[3] = _str_serial_number[4];   // put Serial Number here!
+//	device_name[4] = _str_serial_number[5];   // put Serial Number here!
+//	device_name[5] = _str_serial_number[6];   // put Serial Number here!
+//	device_name[6] = _str_serial_number[7];   // put Serial Number here!
 
 	// data set to advertising buff
 	memset(p, 0x00, APP_BEACON_INFO_LENGTH);
@@ -501,10 +501,10 @@ uint16_t setTemp(uint16_t unSendSeqNum)
 	// LEN(1) | TYPE(1) | DEVICE_NAME(7)
 	memcpy((char*)p, &unLen, 1);
 	p += sizeof(uint8_t);
-	memcpy((char*)p, &unType, 1);
-	p += sizeof(uint8_t);
-	memcpy((char*)p, device_name, 7);
-	p += 7;
+//	memcpy((char*)p, &unType, 1);
+//	p += sizeof(uint8_t);
+//	memcpy((char*)p, device_name, 7);
+//	p += 7;
 	return (uint32_t)p - (uint32_t)_uManufData;
 }
 
