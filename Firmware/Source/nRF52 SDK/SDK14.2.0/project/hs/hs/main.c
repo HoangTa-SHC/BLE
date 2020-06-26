@@ -104,7 +104,8 @@ BLE_ADVERTISING_DEF(m_advertising);				/**< Advertising module instance. */
 #define	DEF_INVALID_DATA		0x8000
 
 #define	DEF_TIMER_ADVERTISING_TIME	10		// 10sec
-#define	DEF_TIMER_ADVERTISING_DATA_EXCHG_TIME	300	// アドバタイジング中のデータ切り替えタイミング 300msec
+// #define	DEF_TIMER_ADVERTISING_DATA_EXCHG_TIME	300	// アドバタイジング中のデータ切り替えタイミング 300msec
+#define	DEF_TIMER_ADVERTISING_DATA_EXCHG_TIME	600	// アドバタイジング中のデータ切り替えタイミング 300msec, SHC modified
 #define	DEF_ADVERTISING_DATAPACKET_MAX	(DEF_ACCEL_SEND_MAX + 1)
 
 // 加速度計における静止状態誤差定義
@@ -298,7 +299,7 @@ static bool sensorProcess(void)
 	wait(DEF_STDFUNC_1MSEC_BASE * 40);		// SENSOR READY WAIT 50msec センサ初期化から90msec空ける
 
 	timerSetWakeup(DEF_WAIT_READY_SENSOR);		// power on 後 5sec待つテスト
-	powerManage(uMode);		// sleep or shutdown
+	powerManage(uMode);		// power on
 
 
 	timerSetWakeup(DEF_WAIT_READ_ACCEL_GAP);	// 加速度センサ読み込みスパン設定
@@ -364,7 +365,7 @@ static void advertisingProcess(void)
 	advertising_init();
 
 	timerSetWakeup(DEF_WAIT_READ_ACCEL_GAP);	// 加速度センサ読み込みスパン設定
-	timerStartAdv(DEF_TIMER_ADVERTISING_TIME);
+	timerStartAdv(DEF_TIMER_ADVERTISING_TIME);  // start adv timer for 10sec
 	timerStartAdvDataExchg(DEF_TIMER_ADVERTISING_DATA_EXCHG_TIME);
 
 	dataExchg(unSendSeqNum, unSendPacketNum++);
@@ -531,11 +532,11 @@ static uint16_t setAccel(uint16_t unSendSeqNum, uint16_t unSendPacketNum)
 
 	if (unSendPacketNum < DEF_ACCEL_SEND_MAX) {
 		unLen = DEF_ACCEL_PACKET_LEN;
-		unDataCnt = DEF_ACCEL_SEND_CNT_PACKET;
+		unDataCnt = DEF_ACCEL_SEND_CNT_PACKET; // 3 XYZ data
 	}
 	else {
-		unLen = DEF_ACCEL_PACKET_LEN - sizeof(int16_t) * 3;		// XYZ
-		unDataCnt = DEF_ACCEL_SEND_CNT_PACKET - 1;
+		unLen = DEF_ACCEL_PACKET_LEN - sizeof(int16_t) * 3;
+		unDataCnt = DEF_ACCEL_SEND_CNT_PACKET - 1; // 2 XYZ data
 	}
 	unStatus |= DEF_STATUS_DEVICE_NAME;	// add device name, should be always set to 1.  Getaway checks it.
 	unStatus |= (isWakeupPairingSw()<<14);
