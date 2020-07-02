@@ -581,14 +581,15 @@ namespace VirtualSerialDevice
             int lseq = Convert.ToInt32(lseq_str, 16); // Convert hex string to integer value
 
             string sensor_str = "";
-
+            float humid = (float)Convert.ToInt32(sensor_data[2], 16) / 65536; // calculate humid value (%)
+            
             if (data_type_flag == (int)SensorType.AD_TEMP_HUM)
             {
                 // Set sensor XYZ string
                 sensor_str = "LSeq: " + lseq + "(" + lseq_str + "), "
                     + "AD1: " + Convert.ToInt32(sensor_data[0], 16) + "(" + sensor_data[0] + "), "  // AD1
                     + "AD2: " + Convert.ToInt32(sensor_data[1], 16) + "(" + sensor_data[1] + "), "  // AD2
-                    + "AD_H: " + Convert.ToInt32(sensor_data[2], 16) + "(" + sensor_data[2] + "), "  // AD-H
+                    + "AD_H: " + String.Format("{0:P2}", humid) + "(" + sensor_data[2] + "), "  // AD-H
                     + "LEN: " + Convert.ToInt32(sensor_data[4], 16) + "(" + sensor_data[4] + ") ";  // LEN
             }
             else if (data_type_flag == (int)SensorType.AD_ACCEL)
